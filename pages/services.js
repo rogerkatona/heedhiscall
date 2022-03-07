@@ -25,7 +25,7 @@ export default function Services() {
                     <div className="max-w-7xl mx-auto xl:px-0 md:px-12 px-6 xl:py-24 py-12">
                         <div className="flex flex-col items-center justify-center text-center">
                             <div className='font-roboto text-4xl tracking-tighter '>Blue Prospect Web Studio</div>
-                            <div className="lg:text-2xl text-xl pt-4">UI/UX design, UX audit solutions, and a production studio to create amazing video and audio social media content.
+                            <div className="lg:text-2xl text-xl pt-4">test
                             </div>
                             <div className="grid md:grid-cols-3 gap-4 md:pb-0 mt-6 ">
                                 <ServiceItem serviceItems={serviceItems}/>

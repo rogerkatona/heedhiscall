@@ -5,7 +5,7 @@ const serviceItems = [
         src: "/image/icon-services-report.svg",
         alt: "UI/UX services for existing and new digital products",
         list: [
-                "UI/UX Design",
+                "Kalpana",
                 "UX Audit",
                 "Workflow Analysis for Critical Paths",
         ]
