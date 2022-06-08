@@ -1,12 +1,12 @@
 ---
-title: 'Simply Medical'
+title: 'Women in Medicine: Reclaiming Career Satisfaction and Life Balance workshop'
 type: "work"
 date: '2021-06-17'
-description: 'Design an eCommerce application for a subsidiary brand of McKesson Inc.  Building the User Interface from the ground up by creating an Information Architecture (IA) document that defined the site structure, and workflow processes like checkout and login... '
+description: 'In this 90 minute workshop Dr. Sundar will take the audience on a journey into determining what career satisfaction means to each individual, and the dynamic role this plays in other aspects of their lives.'
 isFeatured: 'true'
-imageSourceFeatured: '/image/bgSM-simply-medical.png'
-bannerImageSource: '/image/bgLG-simply-medical.png'
-bannerSMImageSource: '/image/bgSM-simply-medical.png'
+imageSourceFeatured: '/image/00.4-highlightWorkshop.png'
+bannerImageSource: '/image/0.4-highlightWorkshop.png'
+bannerSMImageSource: '/image/0.4-highlightWorkshop.png'
 topic: 'eCommerce Design | Usability Research | Logo Design | Information Architecture'
 author: 'Roger Katona'
 authorDescription: 'UI/UX Designer'

@@ -2,14 +2,14 @@ import Head from 'next/head'
 import Layout, { siteTitle } from '../../components/layout'
 import  { Form } from "../../components/form";
 import {useEffect, useRef, useState} from "react";
-import CampaignFeatures from "../../components/campaign_features";
-import CampaignWhatIs from "../../components/campaign_whatIs";
+import CampaignFeatures from "../../components/campaign/campaign_features";
+import CampaignWhatIs from "../../components/campaign/campaign_whatIs";
 import HighlightQuoteKalvera from "../../components/highlight_quote_kalvera";
-import CampaignCTA001 from "../../components/campaign_cta_001";
-import CampaignCTA002 from "../../components/campaign_cta_002";
-import CampaignFaqs from "../../components/campaign_faqs";
-import CampaignValue from "../../components/campaign_value";
-import CampaignPrice from "../../components/campaign_price";
+import CampaignCTA001 from "../../components/campaign/campaign_cta_001";
+import CampaignCTA002 from "../../components/campaign/campaign_cta_002";
+import CampaignFaqs from "../../components/campaign/campaign_faqs";
+import CampaignValue from "../../components/campaign/campaign_value";
+import CampaignPrice from "../../components/campaign/campaign_price";
 
 
 export default function UxAudit() {

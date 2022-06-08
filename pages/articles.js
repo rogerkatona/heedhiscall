@@ -4,8 +4,7 @@ import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import Date from "../components/date";
 import {useEffect, useState} from "react";
-// import Topics from "../components/articleTopics";
-// import topicItems from "../data/topicItems";
+import Hero from "../components/hero";
 
 
 export async function getStaticProps() {
@@ -44,14 +43,8 @@ export default function Articles({allPostsData}) {
                 <title>{siteTitle}</title>
             </Head>
             <div className="min-h-screen">
-
-                <header className='max-w-7xl mx-auto xl:px-0 md:px-12 px-6 py-12'>
-                    <div id="headlineText" className='text-6xl text-gray-700 font-light'>
-                        Articles
-                    </div>
-                    <div id="subHeadlineText" className='text-base text-gray-500'>
-                        A collection of articles to teach, inspire, and elevate our work as entrepreneurs, web designers, and front-end developers.
-                    </div>
+                <header className="bg-hero_articles bg-cover h-screen50vh">
+                    <Hero id={3}/>
                 </header>
 
                 <section className='bg-primaryLight bg-opacity-5 w-full'>

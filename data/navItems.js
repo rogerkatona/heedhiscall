@@ -1,35 +1,29 @@
-import {useRouter} from "next/router";
-
-// let articlePath;
-//
-// function articlePathOptions(){
-//     const router = useRouter()
-//     if (router.pathname === '/articles/[...id].js'){
-//         articlePath = '/articles'
-//         console.log (router.pathname)
-//     } else {
-//         articlePath = '/articles'
-//     }
-// }
-
 
 const navItems = [
     {
-        label: "Services",
-        path: "/services",
+        label: "Conference Speaker",
+        path: "/speaker",
     },
     {
-        label: "Our Work",
-        path: "/work",
+        label: "Workshops",
+        path: "/workshops",
+    },
+    {
+        label: "In The Media",
+        path: '/in-the-media',
     },
     {
         label: "Articles",
-        path: '/articles',
+        path: "/articles",
+    },
+    {
+        label: "Event Planners",
+        path: "/planners",
     },
     {
         label: "About",
         path: "/about",
-    }
+    },
 ];
 
 export default navItems

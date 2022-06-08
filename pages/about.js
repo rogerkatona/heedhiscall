@@ -1,11 +1,5 @@
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
-import HighlightContact from "../components/highlight_contact";
-import HighlightVideoArtistry from "../components/highlight_video_artistry";
-import AboutPieChart from "../components/about-pieChart";
-import HighlightQuoteKalvera from "../components/highlight_quote_kalvera";
-
-
 
 
 export default function About() {
@@ -26,12 +20,6 @@ export default function About() {
                     </header>
                 </div>
             </div>
-            <HighlightVideoArtistry />
-            <HighlightQuoteKalvera/>
-            <AboutPieChart/>
-            <HighlightContact/>
-
-
         </Layout>
     )
 }

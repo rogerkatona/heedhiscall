@@ -1,12 +1,12 @@
 ---
-title: 'Crushing Snacks at the Movies, and Applying 3 Fundamental User Experience (UX) Principles'
+title: 'How to improve patient satisfaction metrics by making the first patient YOU!'
 type: 'articles'
 date: '2021-08-25'
-description: "I can't speak for you, but as a designer, I see most things through the lens of my chosen profession. "
+description: "In this Keynote, Dr. Sundar addresses how self-care can create a positive impact on patient-care.  She will discuss how impactful spending time to take care of your needs impacts all of your interactions throughout the day. "
 isFeatured: 'true'
-bannerImageSource: '/image/bannerLG-hollywood.png'
-bannerSMImageSource: '/image/bannerSM-hollywood.png'
-imageSourceFeatured: '/image/bannerLG-hollywood.png'
+bannerImageSource: '/image/0.7-featuredArticle.png'
+bannerSMImageSource: '/image/0.7-featuredArticle.png'
+imageSourceFeatured: '/image/0.7-featuredArticle.png'
 topic: 'UI/UX Design | User Experience'
 alt: 'Hollywood graphic'
 author: 'Roger Katona'
