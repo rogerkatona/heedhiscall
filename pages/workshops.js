@@ -7,7 +7,7 @@ import HighlightBookACall02 from "../components/highlightBookACall02";
 import HighlightQuote03 from "../components/highlightQuote03";
 
 
-export default function Speaker() {
+export default function Workshops() {
 
     return (
         <Layout home>
