@@ -1,7 +1,4 @@
 import serviceItems from "../data/serviceItems";
-import HighlightQuote02 from "./highlightQuote02";
-import HighlightQuote03 from "./highlightQuote03";
-
 
 export default function Services(props) {
 
@@ -17,7 +14,7 @@ export default function Services(props) {
                         .map(filteredItem => (
                             <div
                                 key={filteredItem.id}
-                                className={`flex flex-row pb-12 max-w-7xl mx-auto ${filteredItem.position.startsWith("odd")  ? 'flex-row-reverse' : ''}`}>
+                                className={`flex flex-row pb-12 max-w-7xl mx-auto ${filteredItem.id % 2 === 0  ? 'flex-row-reverse' : ''}`}>
 
                                 <div className="">
                                     <img
@@ -27,7 +24,7 @@ export default function Services(props) {
                                     />
                                 </div>
                                 <div
-                                    className={`${filteredItem.position.startsWith("odd")  ? 'pr-12' : 'pl-12'} w-2/3`}>
+                                    className={`${filteredItem.id % 2 === 0  ? 'pr-12' : 'pl-12'} w-1/3`}>
                                     <div className='font-bebasNeue text-4xl text-gray.400 font-light border-b'>{filteredItem.number}</div>
                                     <div className='text-2xl text-gray.700 pt-4'>{filteredItem.title}</div>
                                     <div className="text text-gray.700 pt-2">{filteredItem.description}</div>

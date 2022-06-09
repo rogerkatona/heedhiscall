@@ -3,9 +3,8 @@ import Layout, { siteTitle } from '../components/layout'
 import Hero from "../components/hero";
 import Offerings from "../components/offerings";
 import Services from "../components/services";
-import HighlightBookACall02 from "../components/highlightBookACall02";
-import HighlightQuote03 from "../components/highlightQuote03";
-
+import BookACall_02 from "../components/bookACall_02";
+import Quote from "../components/quote";
 
 export default function Workshops() {
 
@@ -22,12 +21,12 @@ export default function Workshops() {
                 In Person Workshop
             </div>
             <Services type="workshop" subtype="in-person"/>
-            <HighlightQuote03/>
+            <Quote id={1}/>
             <div className="flex flex-row justify-center font-bebasNeue text-5xl text-gray.700 bg-gray.200 py-12">
                 Virtual Workshop
             </div>
             <Services type="workshop" subtype="virtual"/>
-            <HighlightBookACall02/>
+            <BookACall_02/>
         </Layout>
     )
 }

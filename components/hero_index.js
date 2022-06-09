@@ -12,13 +12,13 @@ export default function HeroIndex({ children, home }) {
                     Featured video
                 </div>
 
-                <div className="font-bebasNeue text-white text-7xl">
+                <div className="font-bebasNeue text-white.100 text-7xl">
                     Helping Women Navigate Medicine with Clarity
                 </div>
 
                 <div className="flex space-x-2">
                     <Link href=''>
-                        <button className="hover:bg-rust.800 text-white text-xs uppercase hover:text-gray-50 px-4 py-3 bg-rust.500 rounded-lg">
+                        <button className="hover:bg-rust.800 text-white.100 text-xs uppercase hover:text-gray-50 px-4 py-3 bg-rust.500 rounded-lg">
                             Book A Call
                         </button>
                     </Link>

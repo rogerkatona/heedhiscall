@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 
-export default function HighlightTakeQuiz01() {
+export default function TakeQuiz_01() {
     return (
-        <section className="flex flex-col p-12">
+        <section className="flex flex-col py-12 max-w-7xl mx-auto">
             <div className="font-bebasNeue text-3xl text-gray.700 pb-4">
                 Where are you on your path to career satisfaction?
             </div>
@@ -16,7 +16,7 @@ export default function HighlightTakeQuiz01() {
             </div>
             <div className="pt-4">
                 <Link href={`/articles`}>
-                    <button className="hover:bg-rust.800 hover:text-white text-xs text-rust.700 uppercase px-4 py-3 border border-rust.500 rounded-lg">
+                    <button className="hover:bg-rust.800 hover:text-white.100 text-xs text-rust.700 uppercase px-4 py-3 border border-rust.500 rounded-lg">
                         Take the quiz
                     </button>
                 </Link>

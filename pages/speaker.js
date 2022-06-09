@@ -3,9 +3,8 @@ import Layout, { siteTitle } from '../components/layout'
 import Hero from "../components/hero";
 import Offerings from "../components/offerings";
 import Services from "../components/services";
-import HighlightBookACall01 from "../components/highlightBookACall01";
-import HighlightQuote02 from "../components/highlightQuote02";
-import HighlightQuote03 from "../components/highlightQuote03";
+import BookACall_01 from "../components/bookACall_01";
+import Quote from "../components/quote";
 
 
 export default function Speaker() {
@@ -23,17 +22,17 @@ export default function Speaker() {
                 Opening Keynotes
             </div>
             <Services type="speaker" subtype="opening_keynote"/>
-            <HighlightQuote02/>
+            <Quote id={1}/>
             <div className="flex flex-row justify-center font-bebasNeue text-5xl text-gray.700 bg-gray.200 py-12">
                 Breakout Sessions
             </div>
             <Services type="speaker" subtype="breakout_session"/>
-            <HighlightQuote03/>
+            <Quote id={2}/>
             <div className="flex flex-row justify-center font-bebasNeue text-5xl text-gray.700 bg-gray.200 py-12">
                 Closing Keynotes
             </div>
             <Services type="speaker" subtype="closing_keynote"/>
-            <HighlightBookACall01/>
+            <BookACall_01/>
         </Layout>
     )
 }

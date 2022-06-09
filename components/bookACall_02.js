@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 
-export default function HighlightBookACall02() {
+export default function BookACall_02() {
     return (
-        <section className="flex flex-col p-12">
+        <section className="flex flex-col my-12 max-w-7xl mx-auto">
             <div className="font-bebasNeue text-3xl text-gray.700 pb-4">
                 Did you know?
             </div>
@@ -19,7 +19,7 @@ export default function HighlightBookACall02() {
             </div>
             <div className="pt-8">
                 <Link href=''>
-                    <button className="hover:bg-rust.800 text-white text-xs uppercase hover:text-gray-50 px-4 py-3 bg-rust.500 rounded-lg">
+                    <button className="hover:bg-rust.800 text-white.100 text-xs uppercase hover:text-gray-50 px-4 py-3 bg-rust.500 rounded-lg">
                         Book A Call
                     </button>
                 </Link>

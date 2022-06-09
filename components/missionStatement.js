@@ -1,8 +1,8 @@
 
 
-export default function HighlightMissionStatement() {
+export default function MissionStatement() {
     return (
-        <section className="bg-gray.050 m-12">
+        <section className="bg-gray.050 m-12 max-w-7xl mx-auto">
             <div className="flex flex-col justify-center p-12">
                 <div className="font-bebasNeue text-4xl text-gray.700">
                     Professional speaker . Motivator . Coach
