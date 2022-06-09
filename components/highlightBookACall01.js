@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function HighlightBookACall01() {
     return (
-        <section className="flex flex-col p-12">
+        <section className="flex flex-col my-12 max-w-7xl mx-auto">
             <div className="font-bebasNeue text-3xl text-gray.700 pb-4">
                 Did you know?
             </div>

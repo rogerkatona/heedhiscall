@@ -17,7 +17,7 @@ export default function Services(props) {
                         .map(filteredItem => (
                             <div
                                 key={filteredItem.id}
-                                className={`flex flex-row pb-12 ${filteredItem.position.startsWith("odd")  ? 'flex-row-reverse' : ''}`}>
+                                className={`flex flex-row pb-12 max-w-7xl mx-auto ${filteredItem.position.startsWith("odd")  ? 'flex-row-reverse' : ''}`}>
 
                                 <div className="">
                                     <img

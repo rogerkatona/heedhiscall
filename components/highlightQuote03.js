@@ -2,7 +2,7 @@
 
 export default function HighlightQuote03() {
     return (
-        <section className="bg-teal.100 m-12 mt-20">
+        <section className="bg-teal.100 my-20 max-w-7xl mx-auto">
             <div className="flex flex-col justify-center items-center  p-12 pt-6 relative">
                 <div className='flex flex-shrink-0 absolute -top-10'>
                     <img

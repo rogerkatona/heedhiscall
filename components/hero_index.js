@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function HeroIndex({ children, home }) {
 
     return (
-        <section className="flex lg:h-screen90vh h-screen80vh bg-0.1.hero bg-cover flex-row justify-center">
+        <section className="flex lg:h-screen90vh h-screen80vh bg-0.1.hero bg-cover flex-row justify-center ">
 
             <div className="flex flex-col justify-center items-center ">
 
