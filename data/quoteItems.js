@@ -8,7 +8,7 @@ const quoteItems = [
     },
     {
         id:1,
-        text: "&quot;Dr. Sundar captured and engaged our client`&apos;s attention at our annual appreciation event.  Every person that was at the presentation walked away with important material facts on how to take care of themselves, how to focus on the things that really matter, and how to block out the noise that many people pay too much attention to. Can`&apos;t wait to have her back!&quot;",
+        text: "Dr. Sundar captured and engaged our client's attention at our annual appreciation event.  Every person that was at the presentation walked away with important material facts on how to take care of themselves, how to focus on the things that really matter, and how to block out the noise that many people pay too much attention to. Can't wait to have her back!",
         author: "Joe McKinley",
         title: 'Financial Advisor',
         src: '/image/quoteGraphic_teal.png',

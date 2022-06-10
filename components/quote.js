@@ -28,7 +28,7 @@ export default function Quote(props) {
                                         />
                                     </div>
                                     <div className="flex flex-col pt-12">
-                                        <div className="text-lg"> {filteredItem.text} </div>
+                                        <div className="text-lg">&quot;{filteredItem.text}&quot;</div>
                                         <div className="font-bold text-sm mt-2"> {filteredItem.author}</div>
                                         <div className="font-light"> {filteredItem.title}</div>
                                     </div>
