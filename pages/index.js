@@ -9,6 +9,7 @@ import Features from "../components/features";
 import {getSortedPostsData} from "../lib/posts";
 import Link from "next/link";
 import Date from "../components/date";
+import HighlightContact from "../components/highlight_contact";
 
 
 export async function getStaticProps() {

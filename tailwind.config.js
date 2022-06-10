@@ -28,6 +28,7 @@ module.exports = {
         'hero_workshops': "url('/image/hero_workshops.jpeg')",
         'hero_inTheMedia': "url('/image/inTheMedia-03.png')",
         'hero_articles': "url('/image/hero_articles.jpeg')",
+        'bg-contactModal': "url('/image/bg-contact.jpeg')",
       }),
       fontFamily: {
         'sans': ['Helvetica Neue'],

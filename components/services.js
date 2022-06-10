@@ -24,7 +24,7 @@ export default function Services(props) {
                                     />
                                 </div>
                                 <div
-                                    className={`${filteredItem.id % 2 === 0  ? 'pr-12' : 'pl-12'} w-1/3`}>
+                                    className={`${filteredItem.id % 2 === 0  ? 'pr-12' : 'pl-12'} w-4/5`}>
                                     <div className='font-bebasNeue text-4xl text-gray.400 font-light border-b'>{filteredItem.number}</div>
                                     <div className='text-2xl text-gray.700 pt-4'>{filteredItem.title}</div>
                                     <div className="text text-gray.700 pt-2">{filteredItem.description}</div>

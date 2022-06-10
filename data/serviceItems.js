@@ -12,7 +12,7 @@ const serviceItems = [
         date:"2021-08-10",
         title: "How to improve patient satisfaction metrics by making the first patient YOU!",
         description: "In this Keynote, Dr. Sundar addresses how self care can create a positive impact on patient care.  She will discuss how impactful spending time to take care of your needs impacts all of your interactions throughout the day. ",
-        src: '/image/0.3-confSpeaker.png',
+        src: '/image/AdobeStock_362060722_Preview.jpeg',
     },
     {
         id:1,
@@ -23,7 +23,7 @@ const serviceItems = [
         header:"Featured opening keynote",
         title: "Beware of Presenteeism in Your Life - Be More Mindful and Engaged",
         description: "In the workplace just like in life, presenteeism isn’t very obvious.  Many of us are guilty of presenteeism in our own life. Being more mindful and engaged in your daily interactions will increase the joy in your life. In this keynote, Dr. Sundar will inspire you to live each day in a way that brings you satisfaction.",
-        src: '/image/0.3-confSpeaker.png',
+        src: '/image/AdobeStock_354207523_Preview.jpeg',
     },
     {
         id:2,
@@ -34,7 +34,7 @@ const serviceItems = [
         header:"Featured opening keynote",
         title: "The Self Care Instruction guide",
         description: "Self care is a popular buzz phrase right now, but self care is more than a bubble bath and some time with your friends.  In this breakout session, Dr. Sundar will show you how to take your self care to a whole new level so that you feel invigorated and energized each day.",
-        src: '/image/hero_inTheMedia.jpeg',
+        src: '/image/graphic-typesOfSelfCare.png',
     },
     {
         id:3,
@@ -45,7 +45,7 @@ const serviceItems = [
         header:"Featured opening keynote",
         title: "The Juggling Act: Entrepreneurship, Medicine and Family",
         description: "Self care is a popular buzz phrase right now, but self care is more than a bubble bath and some time with your friends.  In this breakout session, Dr. Sundar will show you how to take your self care to a whole new level so that you feel invigorated and energized each day.",
-        src: '/image/hero_inTheMedia.jpeg',
+        src: '/image/AdobeStock_44424252_Preview.jpeg',
     },
     {
         id:4,
@@ -56,7 +56,7 @@ const serviceItems = [
         header:"Featured opening keynote",
         title: "How to communicate with Authority",
         description: "Women have some exceptional communication strengths but are often viewed as not having as much authority.  This keynote will point out strengths in female communication and show women how to increase their perception of authority in a way that creates a benefit for the organization",
-        src: '/image/hero_inTheMedia.jpeg',
+        src: '/image/AdobeStock_332271136_Preview.jpeg',
     },
     {
         id:5,
@@ -67,7 +67,7 @@ const serviceItems = [
         header:"Featured opening keynote",
         title: "How to tow the line between authority and compassion",
         description: "Women in authority struggle to maintain authority while being compassionate.  There is a fine line to tow that balance to create an effective work environment.  For true engagement from our employees we need to understand how to give them what they need so that our team is excited to help the organization prosper.",
-        src: '/image/hero_inTheMedia.jpeg',
+        src: '/image/AdobeStock_212247986_Preview.jpeg',
     },
     {
         id:6,
@@ -78,7 +78,7 @@ const serviceItems = [
         header:"Featured opening keynote",
         title: "Nonverbal ways to communicate confidence",
         description: "A key element to communicating is to deliver your message with confidence.  This keynote will go over the skills needed to enhance the leadership within your organization.",
-        src: '/image/hero_inTheMedia.jpeg',
+        src: '/image/AdobeStock_295212734_Preview.jpeg',
     },
     {
         id:7,
@@ -89,7 +89,7 @@ const serviceItems = [
         header:"Featured opening keynote",
         title: "Boundary Setting for Women in Medicine",
         description: "As women in medicine, we create boundaries effectively but we are equally great at ignoring them repeatedly. In this keynote the audience will understand that boundary setting and keeping to them is of paramount importance in life satisfaction. ",
-        src: '/image/hero_inTheMedia.jpeg',
+        src: '/image/AdobeStock_417474375_Preview.jpeg',
     },
     {
         id:8,
@@ -100,7 +100,7 @@ const serviceItems = [
         header:"Featured opening keynote",
         title: "What to know before you say “I DO” to Medicine",
         description: "There are a few things everyone should know before saying “I DO” to medicine.  Because most of us will stay in a medical career longer than our marriages, it is important to make the decision with as much knowledge as possible. ",
-        src: '/image/hero_inTheMedia.jpeg',
+        src: '/image/AdobeStock_96768151_Preview.jpeg',
     },
     {
         id:9,
@@ -111,7 +111,7 @@ const serviceItems = [
         header:"Featured opening keynote",
         title: "Life is a Journey: No Decision is forever",
         description: "We are often faced with shame if we want to change our minds about something. Especially when it comes to our career.  As human beings we need to understand that we change as life changes.  Not all decisions were meant to last a lifetime.",
-        src: '/image/hero_inTheMedia.jpeg',
+        src: '/image/graphic-lifeIsAJourney.png',
     },
     {
         id:10,
@@ -126,7 +126,7 @@ const serviceItems = [
         date:"2021-08-10",
         title: "Women in Medicine: Reclaiming Career Satisfaction and Life Balance workshop",
         description: "In this 90 minute workshop Dr. Sundar will take the audience on a journey into determining what career satisfaction means to each individual, and the dynamic role this plays in other aspects of their lives.",
-        src: '/image/hero_inTheMedia.jpeg',
+        src: '/image/AdobeStock_172380409_Preview.jpeg',
     },
     {
         id:11,
@@ -137,7 +137,7 @@ const serviceItems = [
         header:"Featured opening keynote",
         title: "Life is a Journey: No Decision is forever",
         description: "We are often faced with shame if we want to change our minds about something. Especially when it comes to our career.  As human beings we need to understand that we change as life changes.  Not all decisions were meant to last a lifetime.",
-        src: '/image/hero_inTheMedia.jpeg',
+        src: '/image/graphic-lifeIsAJourney.png',
     },
 ];
 

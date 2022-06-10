@@ -45,7 +45,7 @@ export default function Features(props) {
                                     <div className='text-gray.700 py-4 '>{filteredItem.description}</div>
                                     <Link href={`/speaker`}>
                                         <button className="hover:bg-rust.800 hover:text-white.100 text-xs text-rust.700 uppercase px-4 py-3 border border-rust.500 rounded-lg">
-                                            See all offerings
+                                            See all
                                         </button>
                                     </Link>
                                 </div>

@@ -3,6 +3,8 @@ import Link from "next/link";
 import { useState} from 'react'
 import navItems from "../data/navItems";
 import {useRouter} from "next/router";
+import Modal from "./modal";
+import useModal from "../lib/useModal";
 
 
 export default function Header() {
@@ -11,8 +13,10 @@ export default function Header() {
     const handleClick = () => setActive(!active)
 
     const router = useRouter()
+    const {isShowing, toggle} = useModal();
 
     return (
+       <>
         <header className={`${router.pathname.startsWith("/campaign/")  ? 'bg-campaign' : 'bg-blue.700'}`}>
             <div className="lg:flex lg:flex-row lg:justify-between lg:items-center lg:mx-auto lg:max-w-7xl py-6 xl:px-0 md:px-12 px-6">
                 <section>
@@ -100,8 +104,10 @@ export default function Header() {
                     </section>
                     <section className={`${active ? '' : 'hidden'} lg:flex lg:flex-row lg:my-0 my-4`}>
                             <NavBar navItems={navItems}/>
-                            <Link href='/contact'>
-                                <button className="hover:bg-blue.400 hover:text-white  text-xs text-blue.700 uppercase px-3 py-2 ml-3 bg-rust.050 rounded-lg">
+                            <Link href=''>
+                                <button
+                                    onClick={toggle}
+                                    className="hover:bg-blue.400 hover:text-white  text-xs text-blue.700 uppercase px-3 py-2 ml-3 bg-rust.050 rounded-lg">
                                     Book a call
                                 </button>
                             </Link>
@@ -109,5 +115,12 @@ export default function Header() {
                 </div>
             </div>
         </header>
+        <section>
+            <Modal
+                isShowing={isShowing}
+                hide={toggle}
+            />
+        </section>
+       </>
     )
 }
