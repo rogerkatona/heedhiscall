@@ -9,9 +9,9 @@ export default function Services() {
             <Head>
                 <title>{siteTitle}</title>
             </Head>
-            <header className="bg-hero_inTheMedia bg-cover h-screen50vh">
-                <Hero id={2}/>
-            </header>
+                <div className="bg-hero_inTheMedia bg-cover">
+                    <Hero id={2}/>
+                </div>
         </Layout>
     )
 }

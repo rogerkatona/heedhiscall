@@ -3,7 +3,7 @@ import Layout, { siteTitle } from "../components/layout";
 import HeroIndex from "../components/hero_index"
 import MissionStatement from "../components/MissionStatement";
 import Quote from "../components/quote";
-import BookACall_01 from "../components/highlightBookACall01";
+import BookACall_01 from "../components/bookACall_01";
 import TakeQuiz_01 from "../components/takeQuiz_01";
 import Features from "../components/features";
 import {getSortedPostsData} from "../lib/posts";
@@ -43,8 +43,8 @@ export default function Home({allPostsData}) {
           featuredPosts
               .filter(featured => featured.type === 'articles')
               .map(featured =>
-                  <section className='bg-gray.500 p-12 '>
-                    <div key={featured.id} className='flex lg:flex-row lg:flex-row-reverse flex-col max-w-7xl mx-auto'>
+                  <section key={featured.id} className='bg-gray.500 p-12 '>
+                    <div  className='flex lg:flex-row lg:flex-row-reverse flex-col max-w-7xl mx-auto'>
                       <div className='flex'>
                         <img
                             src={featured.bannerSMImageSource}

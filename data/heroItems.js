@@ -8,15 +8,15 @@ const heroItems = [
     {
         id:1,
         label: "workshops",
-        description: "As a seasoned professional, Kalpana will elevate your participants experience at your next conference.  Dynamic opening keynotes, " +
+        description: "As a seasoned professional, Dr. Sundar will elevate your participants experience at your next conference.  Dynamic opening keynotes, " +
             "engaging breakout sessions, and inspiring.",
         src: '/image/hero_workshops.jpeg',
     },
     {
         id:2,
         label: "in the media",
-        description: "As a seasoned professional, Kalpana will elevate your participants experience at your next conference.  Dynamic opening keynotes, engaging breakout sessions, and inspiring.",
-        src: '/image/hero_inTheMedia.jpeg',
+        description: "As a seasoned professional, Dr. Sundar will elevate your participants experience at your next conference.  Dynamic opening keynotes, engaging breakout sessions, and inspiring.",
+        src: '/image/inTheMedia-01.jpg',
     },
     {
         id:3,

@@ -26,7 +26,7 @@ module.exports = {
         '0.1.hero': "url('/image/0.1-hero.png')",
         'hero_speaker': "url('/image/hero_speaker.jpeg')",
         'hero_workshops': "url('/image/hero_workshops.jpeg')",
-        'hero_inTheMedia': "url('/image/hero_inTheMedia.jpeg')",
+        'hero_inTheMedia': "url('/image/inTheMedia-03.png')",
         'hero_articles': "url('/image/hero_articles.jpeg')",
       }),
       fontFamily: {

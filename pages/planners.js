@@ -1,47 +1,38 @@
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
-import  { Form } from "../components/form";
-import { useRef } from 'react'
+import Hero from "../components/hero";
+import BookACall_02 from "../components/bookACall_02";
+import Quote from "../components/quote";
+import PlannerResources from "../components/planner-resources";
+import PhotoGrid from "../components/photo-grid";
 
-export const Planners = () => {
 
-    const initialRef = useRef()
+export default function Planners() {
 
     return (
-        <>
-            <Layout home>
-                <Head>
-                    <title>{siteTitle}</title>
-                </Head>
-
-                <div className="max-w-7xl mx-auto xl:px-0 md:px-12 px-6 py-12">
-                    <header className='mb-12'>
-                        <div id="headlineText" className='text-6xl text-gray-700 font-light'>
-                            Contact
-                        </div>
-                        <div id="subHeadlineText" className='text-base text-gray-500 mt-2'>
-                            My passion to design and built things are only matched by my desire to serve my clients.
-                        </div>
-                    </header>
-                    <div className="flex flex-col md:flex-row justify-center">
-                        <div className="flex flex-col justify-center md:p-16 p-6 bg-bg-contactModal bg-no-repeat bg-cover h-screen75vh">
-                            <div className="">
-                                <div className="text-lightGray md:text-2xl pb-6">I look forward to getting to know you and working on something great!</div>
-                            </div>
-                            <div className="text-lightGray md:text-base text-xs">
-                                <div className="">Roger Katona</div>
-                                <div>roger.katona@blueprospect.com</div>
-                                <div>561.231.2718</div>
-                            </div>
-                        </div>
-                        <div className="md:p-12 p-6 bg-gray w-full flex flex-col justify-center">
-                            <Form initialRef={initialRef} />
-                        </div>
-                    </div>
-                </div>
-            </Layout>
-        </>
+        <Layout home>
+            <Head>
+                <title>{siteTitle}</title>
+            </Head>
+            <header className="bg-hero_workshops bg-cover h-screen50vh">
+                <Hero id={4}/>
+            </header>
+            <div className='font-bebasNeue text-6xl uppercase text-gray.700 flex flex-row justify-center  py-12'>Welcome!</div>
+            <div className='max-w-7xl mx-auto pb-12 '>
+                <img
+                    className=""
+                    src="/image/videoThumbnail-01.png"
+                    height={663}
+                    width={1356}
+                    alt="Alt"
+                />
+            </div>
+            <div className='font-bebasNeue text-6xl uppercase text-gray.700 flex flex-row justify-center  bg-rust.100 py-12'>Event Planner Resources</div>
+            <PlannerResources/>
+            <Quote id={1}/>
+            <div className='font-bebasNeue text-6xl uppercase text-gray.700 flex flex-row justify-center  bg-gray.100 py-12'>Headshots</div>
+            <PhotoGrid/>
+            <BookACall_02/>
+        </Layout>
     )
 }
-
-export default Planners;
