@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Layout, { siteTitle } from "../components/layout";
 import HeroIndex from "../components/hero_index"
-import MissionStatement from "../components/MissionStatement";
+import MissionStatement from "../components/missionStatement";
 import Quote from "../components/quote";
 import BookACall_01 from "../components/bookACall_01";
 import TakeQuiz_01 from "../components/takeQuiz_01";
@@ -9,7 +9,6 @@ import Features from "../components/features";
 import {getSortedPostsData} from "../lib/posts";
 import Link from "next/link";
 import Date from "../components/date";
-import HighlightContact from "../components/highlight_contact";
 
 
 export async function getStaticProps() {
