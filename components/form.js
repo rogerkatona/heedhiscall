@@ -138,7 +138,7 @@ export const Form = ({ initialRef}) => {
                 <div className="">
                     <button
                         type="submit"
-                        className={`${router.pathname.startsWith("/campaign/")  ? 'bg-campaignCTA hover:bg-opacity-75 md:text-2xl ' : 'bg-rust.500 hover:bg-secondary text-2xl text-white.100'}  text-white uppercase hover:text-gray-50 py-4 px-8 `}>
+                        className={`${router.pathname.startsWith("/campaign/")  ? 'bg-campaignCTA hover:bg-opacity-75 md:text-2xl ' : ''}  hover:bg-rust.800 hover:text-white.100 text-xs text-white.100 bg-rust.500 uppercase px-4 py-3 border border-rust.500 rounded-lg`}>
                         {`${router.pathname.startsWith("/campaign/")  ? 'Submit your request' : 'Submit'}`}
                     </button>
                 </div>

@@ -144,7 +144,7 @@ const serviceItems = [
         featuredID:0,
         type:"speaker",
         subtype:"opening_keynote",
-        number:"06",
+        number:"03",
         featured:"false",
         featuredHREF:"/speaker",
         featuredURL:"/conference speaker",

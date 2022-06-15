@@ -7,7 +7,7 @@ export default function Footer() {
 
 
     return (
-        <footer className="flex flex-col justify-center items-center bg-blue.700 text-white py-48 space-y-6">
+        <footer className="flex flex-col justify-center lg:items-center lg:px-0 px-12 bg-blue.700 text-white py-48 space-y-6">
             <section>
                 <Link href='/'>
                     <a>
@@ -76,7 +76,7 @@ export default function Footer() {
             </div>
             <div>
                 <Link href='/contact'>
-                    <button className="hover:bg-rust.800 hover:text-white hover:border-rust.800 text-xs text-gray.200 uppercase px-3 py-2  border border-gray.200 rounded-lg">
+                    <button className="hover:bg-rust.800 hover:text-white.100 hover:border-rust.800 text-xs text-gray.200 uppercase px-3 py-2  border border-gray.200 rounded-lg">
                         Book a call
                     </button>
                 </Link>

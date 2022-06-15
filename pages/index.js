@@ -7,8 +7,8 @@ import BookACall_01 from "../components/bookACall_01";
 import TakeQuiz_01 from "../components/takeQuiz_01";
 import Features from "../components/features";
 import {getSortedPostsData} from "../lib/posts";
-import Link from "next/link";
-import Date from "../components/date";
+/*import Link from "next/link";
+import Date from "../components/date";*/
 
 
 export async function getStaticProps() {
@@ -40,7 +40,7 @@ export default function Home({allPostsData}) {
         <BookACall_01/>
         <Features  featured="true" type="about" />
         <TakeQuiz_01/>
-        {
+{/*        {
           featuredPosts
               .filter(featured => featured.type === 'articles')
               .map(featured =>
@@ -52,7 +52,7 @@ export default function Home({allPostsData}) {
                             alt={'Featured Article'}
                         />
                       </div>
-                      <div className='w-1/3 pl-6'>
+                      <div className='w-4/5 lg:pl-6 pt-6 lg:pt-0'>
                         <div className='text-gray.300'>
                           <Link href={`/articles/${featured.id}`}>
                             <a className='hover:underline uppercase text-xs'>/Articles</a>
@@ -76,7 +76,7 @@ export default function Home({allPostsData}) {
                       </div>
                     </div>
                   </section>
-              )}
+              )}*/}
 
     </Layout>
   )

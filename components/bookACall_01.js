@@ -7,7 +7,7 @@ export default function BookACall_01() {
     const {isShowing, toggle} = useModal();
     return (
             <>
-                <section className="flex flex-col my-12 max-w-7xl mx-auto">
+                <section className="flex flex-col lg:py-12 lg:px-0 p-12 lg:mx-auto lg:max-w-7xl">
                     <div className="font-bebasNeue text-3xl text-gray.700 pb-4">
                         Did you know?
                     </div>

@@ -18,7 +18,7 @@ export default function Planners() {
                 <Hero id={4}/>
             </header>
             <div className='font-bebasNeue text-6xl uppercase text-gray.700 flex flex-row justify-center  py-12'>Welcome!</div>
-            <div className='max-w-7xl mx-auto pb-12 '>
+            <div className='max-w-7xl mx-auto pb-12 lg:px-0 px-12 '>
                 <img
                     className=""
                     src="/image/videoThumbnail-01.png"
@@ -27,7 +27,7 @@ export default function Planners() {
                     alt="Alt"
                 />
             </div>
-            <div className='font-bebasNeue text-6xl uppercase text-gray.700 flex flex-row justify-center  bg-rust.100 py-12'>Event Planner Resources</div>
+            <div className='font-bebasNeue text-6xl uppercase text-gray.700 flex flex-row justify-center text-center bg-rust.100 py-12'>Event Planner Resources</div>
             <PlannerResources/>
             <Quote id={1}/>
             <div className='font-bebasNeue text-6xl uppercase text-gray.700 flex flex-row justify-center  bg-gray.100 py-12'>Headshots</div>

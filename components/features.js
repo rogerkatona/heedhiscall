@@ -18,7 +18,7 @@ export default function Features(props) {
                             key={filteredItem.id}
                             className={`flex flex-col p-12 ${filteredItem.featuredID % 2 !== 0  ? 'bg-rust.050' : 'bg-teal.050'}`}>
 
-                            <div className={`flex max-w-7xl mx-auto ${filteredItem.featuredID % 2 !== 0  ? 'flex-row' : 'flex-row-reverse'}`}>
+                            <div className={`flex  flex-col pb-12 max-w-7xl mx-auto  ${filteredItem.featuredID % 2 !== 0  ? 'lg:flex-row' : 'lg:flex-row-reverse'}`}>
                                 <div className=''>
                                     <img
                                         src={filteredItem.src}
@@ -27,7 +27,7 @@ export default function Features(props) {
                                         alt={'Featured Article'}
                                     />
                                 </div>
-                                <div className={` w-1/3 ${filteredItem.featuredID % 2 !== 0  ? 'pl-6' : 'pr-6'}`}>
+                                <div className={`lg:w-4/5 w-full lg:pt-0 pt-6 ${filteredItem.featuredID % 2 !== 0  ? 'lg:pl-6' : 'lg:pr-6'}`}>
                                     <div className='text-rust.700'>
                                         <Link href={filteredItem.featuredHREF}>
                                             <a className='hover:underline uppercase text-xs'>{filteredItem.featuredURL}</a>

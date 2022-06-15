@@ -6,8 +6,8 @@ export default function photoGrid() {
     return (
         <>
             <section className="bg-gray.050">
-                <section  className="max-w-7xl mx-auto py-12">
-                    <div className="grid grid-cols-3 gap-12">
+                <div  className="flex py-12 lg:py-12">
+                    <div className="grid xl:grid-cols-3 gap-12 md:grid-cols-2 grid-cols-1 max-w-7xl mx-auto px-12">
                         {photoGridItems
                             .map(photoGridItems => (
 
@@ -28,7 +28,7 @@ export default function photoGrid() {
                                 </div>
                         ))}
                     </div>
-                </section>
+                </div>
              </section>
         </>
     )

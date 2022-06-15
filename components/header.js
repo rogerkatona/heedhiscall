@@ -18,11 +18,11 @@ export default function Header() {
     return (
        <>
         <header className={`${router.pathname.startsWith("/campaign/")  ? 'bg-campaign' : 'bg-blue.700'}`}>
-            <div className="lg:flex lg:flex-row lg:justify-between lg:items-center lg:mx-auto lg:max-w-7xl py-6 xl:px-0 md:px-12 px-6">
+            <div className="lg:flex lg:flex-row lg:justify-between lg:items-center lg:mx-auto lg:max-w-7xl py-6 xl:px-0 lg:px-12 px-6">
                 <section>
                     <Link href='/'>
                         <a>
-                            <div className="flex flex-row items-center ">
+                            <div className="flex flex-row items-center">
 
                                 <svg
                                     className='w-72 '
@@ -82,9 +82,9 @@ export default function Header() {
                     </Link>
                 </section>
                 <div>
-                    <section className="absolute lg:right-10 right-6 top-8">
+                    <section className="absolute right-6 top-6">
                         <button
-                            className="lg:hidden text-secondary hover:text-primary focus:appearance-none border border-transparent"
+                            className="lg:hidden text-secondary hover:text-primary focus:appearance-none border-none"
                             onClick={handleClick}>
                             <svg
                                 className='w-6 h-6 '
@@ -102,12 +102,12 @@ export default function Header() {
                             </svg>
                         </button>
                     </section>
-                    <section className={`${active ? '' : 'hidden'} lg:flex lg:flex-row lg:my-0 my-4`}>
+                    <section className={`${active ? '' : 'hidden'} lg:flex lg:flex-row lg:my-0 my-12`}>
                             <NavBar navItems={navItems}/>
                             <Link href=''>
                                 <button
                                     onClick={toggle}
-                                    className="hover:bg-blue.400 hover:text-white  text-xs text-blue.700 uppercase px-3 py-2 ml-3 bg-rust.050 rounded-lg">
+                                    className="hover:bg-blue.400 hover:text-white.100  text-xs text-blue.700 uppercase px-3 py-2 lg:ml-3 lg:mt-0 mt-6 bg-rust.050 rounded-lg">
                                     Book a call
                                 </button>
                             </Link>

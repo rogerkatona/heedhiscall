@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function TakeQuiz_01() {
     return (
-        <section className="flex flex-col py-12 max-w-7xl mx-auto">
+        <section className="flex flex-col lg:py-12 lg:px-0 p-12 lg:mx-auto lg:max-w-7xl">
             <div className="font-bebasNeue text-3xl text-gray.700 pb-4">
                 Where are you on your path to career satisfaction?
             </div>

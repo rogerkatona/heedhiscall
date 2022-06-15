@@ -9,21 +9,30 @@ export default function Offerings(props) {
 
     return (
         <>
-        <section className="py-12">
+        <section className="py-12 md:pb-0">
             <div className='font-bebasNeue text-6xl uppercase text-gray.700 flex flex-row justify-center pb-6'>What we offer</div>
-                <div className="flex flex-row justify-center space-x-10">
+                <div className="flex lg:flex-row flex-col lg:justify-center lg:space-x-10 mx-12">
                     {filteredItem.map(filteredItem => (
                         <div key={filteredItem.id} className="">
-                            <div className="flex flex-col text-center items-center">
+                            <div className="flex lg:flex-col flex-row lg:text-center md:items-center md:justify-center md:pb-12">
                                 <img
-                                    className="lg:block hidden"
+                                    className="lg:block hidden flex flex-row"
                                     src={filteredItem.src}
                                     height={150}
                                     width={150}
                                     alt={filteredItem.alt}
                                 />
-                                <div className='text-3xl text-gray.700 font-light pt-4'>{filteredItem.label}</div>
-                                <div className="text text-gray.700 w-80 pt-2">{filteredItem.description}</div>
+                                <img
+                                    className="md:block lg:hidden hidden flex flex-row"
+                                    src={filteredItem.src}
+                                    height={100}
+                                    width={100}
+                                    alt={filteredItem.alt}
+                                />
+                                <div className="flex flex-col md:pl-6 ">
+                                    <div className='text-3xl text-gray.700 font-light pt-4'>{filteredItem.label}</div>
+                                    <div className="text text-gray.700 md:w-80  pt-2">{filteredItem.description}</div>
+                                </div>
                             </div>
                         </div>
                     ))}

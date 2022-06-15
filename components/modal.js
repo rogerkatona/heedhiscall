@@ -25,7 +25,7 @@ const Modal = ({ isShowing, hide }) => isShowing ? ReactDOM.createPortal(
                 </section>
 
                 <section className="max-w-7xl mx-auto flex flex-col justify-center w-2/3 ">
-                    <div className="p-12 bg-blue.600">
+                    <div className="lg:p-12 p-6 bg-blue.600">
                         <div className="font-bebasNeue text-4xl text-white.100  bg-blue.800 p-12 flex flex-row justify-center">
                             Book a call
                         </div>

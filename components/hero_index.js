@@ -1,12 +1,12 @@
-import ReactPlayer from "react-player";
+
 import Link from "next/link";
 
-export default function HeroIndex({ children, home }) {
+export default function HeroIndex() {
 
     return (
-        <section className="flex lg:h-screen90vh h-screen80vh bg-0.1.hero bg-cover flex-row justify-center ">
+        <section className="flex flex-row justify-center lg:h-screen90vh h-screen65vh bg-0.1.hero bg-cover ">
 
-            <div className="flex flex-col justify-center items-center ">
+            <div className="flex flex-col justify-center items-center text-center ">
 
                 <div className="font-bebasNeue text-gray.200 text-xl">
                     Featured video
@@ -22,11 +22,11 @@ export default function HeroIndex({ children, home }) {
                             Book A Call
                         </button>
                     </Link>
-                    <Link href=''>
+                    {/*<Link href=''>
                         <button className="hover:bg-rust.800 hover:text-white hover:border-rust.800 text-xs text-gray.100 uppercase px-4 py-3 border border-gray.100 rounded-lg">
                             Watch Video
                         </button>
-                    </Link>
+                    </Link>*/}
                 </div>
             </div>
 
