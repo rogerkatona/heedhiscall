@@ -9,14 +9,6 @@ const navItems = [
         path: "/workshops",
     },
     {
-        label: "In The Media",
-        path: '/in-the-media',
-    },
-    {
-        label: "Articles",
-        path: "/articles",
-    },
-    {
         label: "Event Planners",
         path: "/planners",
     },

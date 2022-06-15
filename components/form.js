@@ -54,7 +54,7 @@ export const Form = ({ initialRef}) => {
                     .then((res) => {
                     if (res.status === 200) {
                         setToastMessage({message:(
-                                <div className={`${router.pathname.startsWith("/campaign/")  ? 'hidden' : 'block'} absolute bottom-0 text-green-800 -mb-10`}>
+                                <div className={`${router.pathname.startsWith("/campaign/")  ? 'hidden' : 'block'} absolute bottom-0 text-white.100 -mb-10`}>
                                     Thank you for reaching out to me.  I&apos;ll respond to you shortly!  Have a great day.
                                 </div>
                             )});

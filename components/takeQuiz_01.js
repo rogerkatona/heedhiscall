@@ -10,8 +10,7 @@ export default function TakeQuiz_01() {
 
             <div className="">
                 <div className="text-gray.700">
-                    This assessment will help you identify which stage you are in.  Remember, you need to know where you are starting so
-                    that we can create a map to your final destination!
+                    This assessment will help you identify your current level of contentment.  Remember, you need to know where you are starting so that we can create a map to your final destination!
                 </div>
             </div>
             <div className="pt-4">

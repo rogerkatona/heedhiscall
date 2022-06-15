@@ -8,10 +8,7 @@ export default function MissionStatement() {
                     Professional speaker . Motivator . Coach
                 </div>
                 <div className="pt-4">
-                    As a professional speaker, Dr. Kalpana Sundar focuses on guiding women in medicine towards a
-                    fulfilling career and personal life. She works to help women navigate the medical field with clarity
-                    to work towards their version of success.  Her workshops and breakout sessions can help women regain
-                    career fulfillment.
+                    Dr. Kalpana Sundar is a motivational speaker who focuses on guiding women in medicine toward fulfilling careers and personal lives. She helps women navigate the medical field with clarity to work towards their version of success.  Dr Sundar’s workshops and breakout sessions inspire women to regain career fulfillment.
                 </div>
             </div>
         </section>

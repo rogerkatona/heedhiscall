@@ -33,7 +33,7 @@ const heroItems = [
     {
         id:5,
         label: "about",
-        description: "As a seasoned professional, Kalpana will elevate your participants experience at your next conference.  Dynamic opening keynotes, engaging breakout sessions, and inspiring.",
+        description: "Dr. Kalpana Sundar is a motivational speaker who focuses on guiding women in medicine towards a fulfilling career and personal life. She works to help women navigate the medical field with clarity to work towards their version of personal success.",
         src: '/image/hero_inTheMedia.jpeg',
     }
 ];

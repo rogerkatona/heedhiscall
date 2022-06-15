@@ -38,20 +38,21 @@ export default function Home({allPostsData}) {
         <Quote id={2}/>
         <Features  featured="true" type="workshop" />
         <BookACall_01/>
-
+        <Features  featured="true" type="about" />
+        <TakeQuiz_01/>
         {
           featuredPosts
               .filter(featured => featured.type === 'articles')
               .map(featured =>
                   <section key={featured.id} className='bg-gray.500 p-12 '>
-                    <div  className='flex lg:flex-row lg:flex-row-reverse flex-col max-w-7xl mx-auto'>
+                    <div  className='flex lg:flex-row lg:flex-row flex-col max-w-7xl mx-auto'>
                       <div className='flex'>
                         <img
                             src={featured.bannerSMImageSource}
                             alt={'Featured Article'}
                         />
                       </div>
-                      <div className='w-1/3 pr-6'>
+                      <div className='w-1/3 pl-6'>
                         <div className='text-gray.300'>
                           <Link href={`/articles/${featured.id}`}>
                             <a className='hover:underline uppercase text-xs'>/Articles</a>
@@ -77,7 +78,6 @@ export default function Home({allPostsData}) {
                   </section>
               )}
 
-        <TakeQuiz_01/>
     </Layout>
   )
 }

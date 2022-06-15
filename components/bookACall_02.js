@@ -9,12 +9,12 @@ export default function BookACall_02() {
             </div>
             <div className="py-4">
                 <span className="text-xl text-gray.700 font-medium">
-                    If you are planning an event, the speakers make all the difference.
+                    When hosting an event, the invited speaker can make all the difference.
                 </span>
             </div>
             <div className="">
                 <div className="text-gray.700 pt-4">
-                    You want the audience engaged and feeling that the time they took out of work and their busy lives was worth it.  Dr. Sundar can engage your audience and communicate value with her message.  Her goal is to partner with you, exceed your expectations, so that your attendees have an amazing experience at your event.
+                    The right speaker will engage the audience and convince them the investment of their time will bring profit.  Dr. Sundar’s goal as an educational and motivational speaker is to exceed expectations and bring lasting benefits to the audience and sponsoring organization.
                 </div>
             </div>
             <div className="pt-8">
