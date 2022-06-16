@@ -3,7 +3,7 @@ const offeringItems = [
         id: 0,
         type: "speaker",
         label: "Opening Keynote",
-        description: "Engage the audience at the start of your conference to kick off a great event",
+        description: "Inspirational and thought provoking introduction to the event",
         src: "/image/icon-speaking.svg",
         alt: "UI/UX services for existing and new digital products",
         list: [
@@ -16,7 +16,7 @@ const offeringItems = [
         id: 1,
         type: "speaker",
         label: "Breakout Sessions",
-        description: "Offer a valuable yet deeper discussion of relevant topics",
+        description: "Small group engagement with relevant topics",
         src: '/image/icon-breakout.svg',
         alt: 'Opening Keynote',
         list: [
@@ -29,7 +29,7 @@ const offeringItems = [
         id: 2,
         type: "speaker",
         label: "Closing Keynote",
-        description: "Close the event with an engaging talk so that they leave with an actionable change",
+        description: "Challenging opportunity for the audience to initiate change",
         src: '/image/icon-closing.svg',
         alt: 'Development Services Icon',
         list: [
@@ -42,7 +42,7 @@ const offeringItems = [
         id: 3,
         type: "workshops",
         label: "In-Person Workshop",
-        description: "Update existing products and developing new products.",
+        description: "Targeted discussion to encourage participants to think deeply on the issue",
         src: '/image/icon-breakout.svg',
         alt: 'Development Services Icon',
         list: [
@@ -55,7 +55,7 @@ const offeringItems = [
         id: 4,
         type: "workshops",
         label: "Virtual Workshop",
-        description: "Update existing products and developing new products.",
+        description: "Virtual workshop targeted discussion to encourage participants to think deeply on the issue",
         src: '/image/icon-closing.svg',
         alt: 'Development Services Icon',
         list: [

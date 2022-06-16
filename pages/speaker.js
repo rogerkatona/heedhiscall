@@ -14,7 +14,7 @@ export default function Speaker() {
             <Head>
                 <title>{siteTitle}</title>
             </Head>
-            <header className="bg-hero_speaker bg-cover h-screen50vh">
+            <header className="bg-hero_speaker bg-center bg-no-repeat ">
                 <Hero id={0}/>
             </header>
             <Offerings type="speaker"/>

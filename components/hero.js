@@ -9,14 +9,14 @@ export default function Hero(props) {
 
     return (
         <>
-            <section className="flex flex-row max-w-7xl mx-auto h-screen65vh">
+            <section className="flex flex-row max-w-7xl mx-auto h-screen50vh">
             {filteredItem.map(filteredItem => (
                 <section
                     key={filteredItem.id}
                     className="flex flex-col justify-center w-2/3">
-                    <div className="bg-gradient-to-r from-white.50 p-12">
-                        <div className='font-bebasNeue text-6xl uppercase text-blue.700'>{filteredItem.label}</div>
-                        <div className="text-xl text-gray.700">{filteredItem.description}</div>
+                    <div className="bg-gradient-to-r from-white.75 to-white.25 p-6">
+                        <div className='font-bebasNeue text-5xl uppercase text-blue.700'>{filteredItem.label}</div>
+                        <div className="font-medium text-gray.800">{filteredItem.description}</div>
                     </div>
                 </section>
             ))}

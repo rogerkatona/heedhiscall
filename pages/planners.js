@@ -14,16 +14,14 @@ export default function Planners() {
             <Head>
                 <title>{siteTitle}</title>
             </Head>
-            <header className="bg-hero_workshops bg-cover h-screen50vh">
+            <header className="bg-hero-planners bg-center bg-no-repeat">
                 <Hero id={4}/>
             </header>
-            <div className='font-bebasNeue text-6xl uppercase text-gray.700 flex flex-row justify-center  py-12'>Welcome!</div>
+            <div className='font-bebasNeue text-6xl uppercase text-gray.700 flex flex-row justify-center py-12'>Welcome!</div>
             <div className='max-w-7xl mx-auto pb-12 lg:px-0 px-12 '>
                 <img
                     className=""
                     src="/image/videoThumbnail-01.png"
-                    height={663}
-                    width={1356}
                     alt="Alt"
                 />
             </div>

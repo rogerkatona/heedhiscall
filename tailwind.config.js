@@ -21,15 +21,20 @@ module.exports = {
         "screen80vh": "calc(80vh)",
         "screen75vh": "calc(75vh)",
         "screen65vh": "calc(65vh)",
+        "screen50vh": "calc(50vh)",
+        "screen47vh": "calc(47vh)",
       }),
       backgroundImage: theme => ({
         '0.1.hero': "url('/image/0.1-hero.png')",
-        'hero_speaker': "url('/image/hero_speaker.jpeg')",
-        'hero_workshops': "url('/image/hero_workshops.jpeg')",
+        'hero_speaker': "url('/image/hero-conference_speaker.jpg')",
+        'hero_workshops': "url('/image/hero-workshop.jpg')",
+        'hero-planners': "url('/image/hero-event_planners.jpg')",
+        'hero-about': "url('/image/hero-about.jpg')",
+        'bg-contactModal': "url('/image/bg-contact.jpeg')",
         'hero_inTheMedia': "url('/image/inTheMedia-03.png')",
         'hero_articles': "url('/image/hero_articles.jpeg')",
-        'hero-about': "url('/image/hero-about.png')",
-        'bg-contactModal': "url('/image/bg-contact.jpeg')",
+
+
       }),
       fontFamily: {
         'sans': ['Helvetica Neue'],
@@ -48,6 +53,7 @@ module.exports = {
         '50': '50%',
         '60': '60%',
         '16': '4rem',
+        '650': '40.625rem',
       },
       scale: {
         '0': '0',
@@ -68,7 +74,9 @@ module.exports = {
     colors: {
       'white.25': 'rgba(255, 255, 255, 0.25);',
       'white.50': 'rgba(255, 255, 255, 0.50);',
+      'white.75': 'rgba(255, 255, 255, 0.75);',
       'white.100': 'rgba(255, 255, 255, 1);',
+      'black.100': 'rgba(0, 0, 0, 1);',
       'blue.100': '#BECBDD',
       'blue.200': '#93A9C6',
       'blue.300': '#6786AF',

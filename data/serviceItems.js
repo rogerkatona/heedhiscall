@@ -44,7 +44,7 @@ const serviceItems = [
         featured:"false",
         header:"Featured opening keynote",
         title: "The Juggling Act: Entrepreneurship, Medicine and Family",
-        description: "Self care is a popular buzz phrase right now, but self care is more than a bubble bath and some time with your friends.  In this breakout session, Dr. Sundar will show you how to take your self care to a whole new level so that you feel invigorated and energized each day.",
+        description: "A career in medicine is challenging enough but add entrepreneurship and a family to the equation and life feels like a juggling act that can spiral out of control at a moment's notice. Learn the key elements in gracefully and successfully juggling these aspects of your life.",
         src: '/image/AdobeStock_44424252_Preview.jpeg',
     },
     {
@@ -58,18 +58,18 @@ const serviceItems = [
         description: "Women are often thought of as exceptional communicators who, unfortunately, lack authority. This keynote points out strengths in female communication styles and shows women how to increase their use of authority to benefit themselves and their organizations.",
         src: '/image/AdobeStock_332271136_Preview.jpeg',
     },
-    {
+/*    {
         id:5,
         type:"speaker",
         subtype:"breakout_session",
         number:"04",
         featured:"false",
         header:"Featured opening keynote",
-        title: "How to tow the line between authority and compassion",
-        description: "Women in authority struggle to maintain authority while being compassionate.  There is a fine line to tow that balance to create an effective work environment.  For true engagement from our employees we need to understand how to give them what they need so that our team is excited to help the organization prosper.",
+        title: "Compassionate Authority",
+        description: "All leaders find themselves in situations where they must use authority with compassion when dealing with employees and organizational decisions. Dr Sundar addresses this issue with insights for women in leadership.",
         src: '/image/AdobeStock_212247986_Preview.jpeg',
-    },
-    {
+    },*/
+/*    {
         id:6,
         type:"speaker",
         subtype:"breakout_session",
@@ -79,8 +79,8 @@ const serviceItems = [
         title: "Nonverbal ways to Communicate Confidence",
         description: "Effective communication includes more than just the words of the message. This keynote demonstrates the importance of nonverbal communication techniques that inspire confidence.",
         src: '/image/AdobeStock_295212734_Preview.jpeg',
-    },
-    {
+    },*/
+/*    {
         id:7,
         type:"speaker",
         subtype:"breakout_session",
@@ -90,7 +90,7 @@ const serviceItems = [
         title: "Boundary Setting for Women in Medicine",
         description: "As women in medicine, we may have learned to be great at creating boundaries but we are equally great at repeatedly ignoring them. From this keynote, women will appreciate how setting and keeping boundaries is of paramount importance in life satisfaction.",
         src: '/image/AdobeStock_417474375_Preview.jpeg',
-    },
+    },*/
     {
         id:8,
         type:"speaker",
@@ -102,7 +102,7 @@ const serviceItems = [
         description: "There are a few things everyone should know before saying “I DO” to medicine.  Because most of us will stay in a medical career longer than our marriages, it is important to make the decision with as much knowledge as possible. ",
         src: '/image/AdobeStock_96768151_Preview.jpeg',
     },
-    {
+/*    {
         id:9,
         type:"speaker",
         subtype:"closing_keynote",
@@ -112,7 +112,7 @@ const serviceItems = [
         title: "Life is a Journey: No Decision is forever",
         description: "We are often faced with shame if we want to change our minds about something. Especially when it comes to our career.  As human beings we need to understand that we change as life changes.  Not all decisions were meant to last a lifetime.",
         src: '/image/graphic-lifeIsAJourney.png',
-    },
+    },*/
     {
         id:10,
         featuredID:11,
@@ -133,13 +133,16 @@ const serviceItems = [
         type:"workshop",
         subtype:"virtual",
         number:"01",
-        featured:"false",
-        header:"Featured opening keynote",
-        title: "Life is a Journey: No Decision is forever",
-        description: "We are often faced with shame if we want to change our minds about something. Especially when it comes to our career.  As human beings we need to understand that we change as life changes.  Not all decisions were meant to last a lifetime.",
-        src: '/image/graphic-lifeIsAJourney.png',
+        featured:"true",
+        featuredHREF:"/workshops",
+        featuredURL:"/workshops",
+        featuredHeader:"Featured workshop",
+        date:"2021-08-10",
+        title: "Women in Medicine: Reclaiming Career Satisfaction and Life Balance workshop",
+        description: "In this 90 minute workshop Dr. Sundar will take the audience on a journey to determine what career satisfaction looks like for each participant and the dynamic role this plays in other aspects of their lives.",
+        src: '/image/AdobeStock_172380409_Preview.jpeg',
     },
-    {
+/*    {
         id:12,
         featuredID:0,
         type:"speaker",
@@ -153,7 +156,7 @@ const serviceItems = [
         title: "When the Healer Faces a Medical Illness",
         description: "Women in medicine may have to face an illness during their career.  This journey is often different for us because we are used to being the healer.  These times can be challenging and each journey is unique.  Dr Sundar will inspire women who face personal health problems with her own experience as a cancer survivor.",
         src: '/image/AdobeStock_362060722_Preview.jpeg',
-    },
+    },*/
     {
         id:13,
         featuredID:12,

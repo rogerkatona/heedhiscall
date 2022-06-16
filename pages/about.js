@@ -10,7 +10,7 @@ export default function About() {
             <Head>
                 <title>{siteTitle}</title>
             </Head>
-            <div className="bg-hero-about bg-cover">
+            <div className="bg-hero-about bg-auto bg-650 bg-no-repeat ">
                 <Hero id={5}/>
             </div>
             <AboutItem/>
