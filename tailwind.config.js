@@ -12,6 +12,14 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      minHeight: theme => ({
+        "screen90vh": "calc(90vh)",
+        "screen60vh": "calc(60vh)",
+      }),
+     maxHeight: theme => ({
+       "screen90vh": "calc(90vh)",
+       "screen65vh": "calc(65vh)",
+      }),
       height: theme => ({
         "screen/2": "50vh",
         "screen/3": "calc(100vh / 3)",
@@ -25,7 +33,7 @@ module.exports = {
         "screen47vh": "calc(47vh)",
       }),
       backgroundImage: theme => ({
-        '0.1.hero': "url('/image/0.1-hero.png')",
+        '0.1.hero': "url('/image/hero-index.jpg')",
         'hero_speaker': "url('/image/hero-conference_speaker.jpg')",
         'hero_workshops': "url('/image/hero-workshop.jpg')",
         'hero-planners': "url('/image/hero-event_planners.jpg')",

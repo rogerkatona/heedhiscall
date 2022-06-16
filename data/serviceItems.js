@@ -119,7 +119,7 @@ const serviceItems = [
         type:"workshop",
         subtype:"in-person",
         number:"01",
-        featured:"true",
+        featured:"false",
         featuredHREF:"/workshops",
         featuredURL:"/workshops",
         featuredHeader:"Featured workshop",

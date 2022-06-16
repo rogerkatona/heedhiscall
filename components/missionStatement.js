@@ -2,9 +2,9 @@
 
 export default function MissionStatement() {
     return (
-        <section className="bg-gray.050 m-12 max-w-7xl mx-auto">
-            <div className="flex flex-col justify-center p-12">
-                <div className="font-bebasNeue text-4xl text-gray.700">
+        <section className="bg-gray.050 max-w-7xl mx-auto m-12">
+            <div className="flex flex-col justify-center md:p-12 px-6 py-12">
+                <div className="font-bebasNeue md:text-4xl text-3xl text-gray.700">
                     Professional speaker . Motivator . Coach
                 </div>
                 <div className="pt-4">
