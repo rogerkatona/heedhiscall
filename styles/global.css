@@ -25,7 +25,7 @@
              @apply mt-8 mb-4;
          }
     p {
-        @apply leading-loose text-justify md:text-left mb-6;
+        @apply text-gray.700 pt-2 ;
     }
     ul {
         @apply list-disc pl-4 leading-loose;

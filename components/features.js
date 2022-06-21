@@ -18,12 +18,11 @@ export default function Features(props) {
                             key={filteredItem.id}
                             className={`flex flex-col p-12 ${filteredItem.featuredID % 2 !== 0  ? 'bg-rust.050' : 'bg-teal.050'}`}>
 
-                            <div className={`flex  flex-col pb-12 max-w-7xl mx-auto  ${filteredItem.featuredID % 2 !== 0  ? 'lg:flex-row' : 'lg:flex-row-reverse'}`}>
+                            <div className={`flex  flex-col  max-w-7xl mx-auto  ${filteredItem.featuredID % 2 !== 0  ? 'lg:flex-row' : 'lg:flex-row-reverse'}`}>
                                 <div className=''>
                                     <img
                                         src={filteredItem.src}
-                                        height={540}
-                                        width={865}
+                                        width={1000}
                                         alt={'Featured Article'}
                                     />
                                 </div>
@@ -43,7 +42,7 @@ export default function Features(props) {
                                         <Date dateString={filteredItem.date} />
                                     </div>
                                     <div className='text-gray.700 py-4 '>{filteredItem.description}</div>
-                                    <Link href={`/speaker`}>
+                                    <Link href={filteredItem.featuredHREF}>
                                         <button className="hover:bg-rust.800 hover:text-white.100 text-xs text-rust.700 uppercase px-4 py-3 border border-rust.500 rounded-lg">
                                             {filteredItem.type === 'about'  ? 'Continue Reading' : 'See all'}
                                         </button>

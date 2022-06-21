@@ -1,8 +1,10 @@
 
 import Link from "next/link";
+import useModal from "../lib/useModal";
+import Modal from "./modal";
 
 export default function HeroIndex() {
-
+    const {isShowing, toggle} = useModal();
     return (
         <section className="flex flex-row min-h-screen60vh max-h-screen60vh bg-0.1.hero bg-cover bg-right bg-no-repeat">
 
@@ -18,7 +20,9 @@ export default function HeroIndex() {
 
                 <div className="flex space-x-2">
                     <Link href=''>
-                        <button className="hover:bg-rust.800 text-white.100 text-xs uppercase hover:text-gray-50 px-4 py-3 bg-rust.500 rounded-lg">
+                        <button
+                            className="hover:bg-rust.800 text-white.100 text-xs uppercase hover:text-gray-50 px-4 py-3 bg-rust.500 rounded-lg"
+                            onClick={toggle}>
                             Book A Call
                         </button>
                     </Link>
@@ -30,6 +34,11 @@ export default function HeroIndex() {
                 </div>
             </div>
 
-
+            <section>
+                <Modal
+                    isShowing={isShowing}
+                    hide={toggle}
+                />
+            </section>
         </section>
     )}

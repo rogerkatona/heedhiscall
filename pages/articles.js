@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Date from "../components/date";
 import {useEffect, useState} from "react";
 import Hero from "../components/hero";
+import Modal from "../components/modal";
 
 
 export async function getStaticProps() {
