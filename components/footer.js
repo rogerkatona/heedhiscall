@@ -1,10 +1,12 @@
 import Link from "next/link";
 import NavBar from "./navBar";
 import navItems from "../data/navItems";
+import useModal from "../lib/useModal";
+import Modal from "./modal";
 
 
 export default function Footer() {
-
+    const {isShowing, toggle} = useModal();
 
     return (
         <footer className="flex flex-col justify-center lg:items-center lg:px-0 px-12 bg-blue.700 text-white py-48 space-y-6">
@@ -75,13 +77,20 @@ export default function Footer() {
                 <NavBar navItems={navItems}/>
             </div>
             <div>
-                <Link href='/contact'>
-                    <button className="hover:bg-rust.800 hover:text-white.100 hover:border-rust.800 text-xs text-gray.200 uppercase px-3 py-2  border border-gray.200 rounded-lg">
+                <Link href=''>
+                    <button
+                        onClick={toggle}
+                        className="hover:bg-rust.800 hover:text-white.100 hover:border-rust.800 text-xs text-gray.200 uppercase px-3 py-2  border border-gray.200 rounded-lg">
                         Book a call
                     </button>
                 </Link>
             </div>
-
+            <section>
+                <Modal
+                    isShowing={isShowing}
+                    hide={toggle}
+                />
+            </section>
         </footer>
     )
 }
