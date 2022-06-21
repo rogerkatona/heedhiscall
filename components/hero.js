@@ -14,9 +14,9 @@ export default function Hero(props) {
                 <section
                     key={filteredItem.id}
                     className="flex flex-col justify-center w-2/3">
-                    <div className="bg-gradient-to-r from-white.75 to-white.25 p-6">
-                        <div className='font-bebasNeue text-5xl uppercase text-blue.700'>{filteredItem.label}</div>
-                        <div className="font-medium text-gray.800">{filteredItem.description}</div>
+                    <div className="bg-gradient-to-r from-white.75 to-white.25 p-12">
+                        <div className='font-bebasNeue text-7xl uppercase text-blue.700'>{filteredItem.label}</div>
+                        <div className="text-gray.7800">{filteredItem.description}</div>
                     </div>
                 </section>
             ))}

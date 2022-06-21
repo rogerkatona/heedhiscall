@@ -89,12 +89,12 @@ export const Form = ({ initialRef}) => {
 
                 <div className="flex flex-col">
                     <label
-                        className={`${router.pathname.startsWith("/campaign/")  ? 'text-white' : 'text-white.100'} uppercase tracking-wide text-xs`}>
+                        className={`${router.pathname.startsWith("/campaign/")  ? 'text-white' : 'text-white.100'} uppercase tracking-wide text-xs pb-2`}>
                         Name*
                     </label>
                     <input
                         ref={initialRef}
-                        className="bg-gray-200 text-black border py-3 px-4 mb-4"
+                        className="bg-gray-200 text-black border py-3 px-4 mb-6"
                         placeholder="Enter your name"
                         value={formState.name}
                         onChange={(e) =>
@@ -104,11 +104,11 @@ export const Form = ({ initialRef}) => {
                 </div>
                 <div className="flex flex-col">
                     <label
-                        className={`${router.pathname.startsWith("/campaign/")  ? 'text-white' : 'text-white.100'} uppercase tracking-wide text-xs`}>
+                        className={`${router.pathname.startsWith("/campaign/")  ? 'text-white' : 'text-white.100'} uppercase tracking-wide text-xs pb-2`}>
                         Email*
                     </label>
                     <input
-                        className="bg-gray-200 text-black border py-3 px-4 mb-4"
+                        className="bg-gray-200 text-black border py-3 px-4 mb-6"
                         placeholder="yourname@email.com"
                         type="email"
                         value={formState.email}
@@ -120,12 +120,12 @@ export const Form = ({ initialRef}) => {
                 <div className={`${router.pathname.startsWith("/campaign/")  ? 'hidden' : 'block'}`}>
                     <div className="">
                         <label
-                            className="uppercase tracking-wide text-xs text-white.100">
+                            className="uppercase tracking-wide text-xs text-white.100 pb-2">
                             Anything else?
                         </label>
                         <div>
                         <textarea
-                            className="w-full border border-darkGray py-3 px-4 mb-4 "
+                            className="w-full border border-darkGray py-3 px-4 mb-6 "
                             rows="4"
                             value={formState.contactMessage}
                             onChange={(e) =>

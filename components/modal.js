@@ -24,12 +24,12 @@ const Modal = ({ isShowing, hide }) => isShowing ? ReactDOM.createPortal(
                     </div>
                 </section>
 
-                <section className="max-w-7xl mx-auto flex flex-col justify-center w-2/3 ">
+                <section className="max-w-7xl mx-auto flex flex-col justify-center xl:w-1/2 w-full px-12 ">
                     <div className="lg:p-12 p-6">
                         <div className="font-bebasNeue text-7xl text-white.100  flex flex-row justify-center pb-12">
                             Book a call
                         </div>
-                        <div className="text-gray.200 py-6 text-xl flex flex-row justify-center pb-12 ">
+                        <div className="text-gray.200 flex flex-row justify-center pb-12 text-center">
                             <div className="" >
                                 Provide your information and I will reach out to quickly to schedule an exploratory call (30 minutes) to discuss how I can help. I&apos;ll provide web conferencing details provided upon confirmation.
                             </div>

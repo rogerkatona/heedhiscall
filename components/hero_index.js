@@ -14,7 +14,7 @@ export default function HeroIndex() {
                     Featured video
                 </div>*/}
 
-                <div className="font-bebasNeue text-white.100 md:text-7xl text-opacity-5 text-6xl">
+                <div className="font-bebasNeue text-white.100 md:text-7xl text-opacity-5 text-6xl xl:w-4/5">
                     Helping Women Navigate Medicine with Clarity
                 </div>
 

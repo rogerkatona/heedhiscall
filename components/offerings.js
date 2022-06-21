@@ -30,7 +30,7 @@ export default function Offerings(props) {
                                     alt={filteredItem.alt}
                                 />
                                 <div className="flex flex-col md:pl-6 ">
-                                    <div className='lg:text-3xl text-2xl text-gray.700 xl:font-light pt-4'>{filteredItem.label}</div>
+                                    <div className='lg:text-4xl text-2xl font-bebasNeue text-gray.400 font-light pt-4'>{filteredItem.label}</div>
                                     <div className="text text-gray.700 md:w-80  pt-0">{filteredItem.description}</div>
                                 </div>
                             </div>

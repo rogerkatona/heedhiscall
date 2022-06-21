@@ -32,6 +32,9 @@ module.exports = {
         "screen50vh": "calc(50vh)",
         "screen47vh": "calc(47vh)",
       }),
+      width: theme => ({
+        "128": "32rem",
+      }),
       backgroundImage: theme => ({
         '0.1.hero': "url('/image/hero-index.jpg')",
         'hero_speaker': "url('/image/hero-conference_speaker.jpg')",
