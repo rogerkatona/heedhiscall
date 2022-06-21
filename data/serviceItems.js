@@ -11,7 +11,7 @@ const serviceItems = [
         featuredHeader:"Featured opening keynote",
         date:"2021-08-10",
         title: "How to improve patient satisfaction metrics by making the first patient YOU!",
-        description: "In this Keynote, Dr. Sundar addresses how self care can create a positive impact on patient care. She discusses how spending time to take care of your needs impacts all of your interactions throughout the day.",
+        description: "In this keynote, Dr. Sundar addresses how self care can create a positive impact on patient care. She discusses how spending time to take care of your needs impacts all of your interactions throughout the day.",
         src: '/image/services-01.jpg',
     },
     {
@@ -47,7 +47,7 @@ const serviceItems = [
         description: "A career in medicine is challenging enough but add entrepreneurship and a family to the equation and life feels like a juggling act that can spiral out of control at a moment's notice. Learn the key elements in gracefully and successfully juggling these aspects of your life.",
         src: '/image/services-07.jpg',
     },
-    {
+/*    {
         id:4,
         type:"speaker",
         subtype:"breakout_session",
@@ -57,18 +57,18 @@ const serviceItems = [
         title: "How to Communicate with Authority",
         description: "Women are often thought of as exceptional communicators who, unfortunately, lack authority. This keynote points out strengths in female communication styles and shows women how to increase their use of authority to benefit themselves and their organizations.",
         src: '/image/services-05.jpg',
-    },
-/*    {
-        id:5,
+    },*/
+{
+        id:4,
         type:"speaker",
         subtype:"breakout_session",
-        number:"04",
+        number:"03",
         featured:"false",
         header:"Featured opening keynote",
         title: "Compassionate Authority",
-        description: "All leaders find themselves in situations where they must use authority with compassion when dealing with employees and organizational decisions. Dr Sundar addresses this issue with insights for women in leadership.",
-        src: '/image/AdobeStock_212247986_Preview.jpeg',
-    },*/
+        description: "All leaders find themselves in situations where they must use authority with compassion when dealing with employees and organizational decisions. Dr. Sundar addresses this issue with insights for women in leadership.",
+        src: '/image/services-09.jpg',
+    },
 /*    {
         id:6,
         type:"speaker",
@@ -169,7 +169,7 @@ const serviceItems = [
         featuredHeader:"Featured workshop",
         date:"2021-08-10",
         title: "Nonverbal ways to Communicate Confidence",
-        description: "Whether you have a great idea to improve patient care, need time off or want a raise, you must learn to communicate with confidence.  In this 60 minute workshop, Dr. Sundar will take the audience through the key ways to nonverbally communicate confidence.  Workshop attendees will also deal with real life scenarios and have the opportunity to practice their newly learned skills to apply in the workplace.",
+        description: "Whether you have a great idea to improve patient care, need time off or want a raise, you must learn to communicate with confidence.  In this 60 minute workshop, Dr. Sundar will take the audience through the key ways to non-verbally communicate confidence.  Workshop attendees will also deal with real life scenarios and have the opportunity to practice their newly learned skills to apply in the workplace.",
         src: '/image/services-03.jpg',
     },
     {
