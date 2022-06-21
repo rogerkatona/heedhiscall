@@ -44,7 +44,7 @@ export default function About() {
                             <div className='lg:text-3xl text-2xl text-gray.500 tracking-wide  bg-gray.100 lg:p-12 p-4'>...diagnosis of thyroid cancer within months of starting her private practice</div>
                                 <div className="lg:p-12 p-4 pt-6">
                                     <p>Between the births of her two children during her residency and the diagnosis of thyroid cancer within months of starting her private practice, Dr. Sundar experienced a level of stress in her personal and career life that changed her definition of success.</p>
-                                    <p>She realized how much she enjoyed helping women look and feel their best. Dr Sundar’s frustration with the toxic solutions recommended for skin care and anti-aging led her to create her own nontoxic healthy skin care regimen.</p>
+                                    <p>She realized how much she enjoyed helping women look and feel their best. Dr Sundar&apos;s frustration with the toxic solutions recommended for skin care and anti-aging led her to create her own nontoxic healthy skin care regimen.</p>
                                 </div>
                             </div>
                     </div>
