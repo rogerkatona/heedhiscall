@@ -42,11 +42,22 @@ export default function Features(props) {
                                         <Date dateString={filteredItem.date} />
                                     </div>
                                     <div className='text-gray.700 py-4 '>{filteredItem.description}</div>
-                                    <Link href={filteredItem.featuredHREF}>
-                                        <button className="hover:bg-rust.800 hover:text-white.100 text-xs text-rust.700 uppercase px-4 py-3 border border-rust.500 rounded-lg">
-                                            {filteredItem.type === 'about'  ? 'Continue Reading' : 'See all'}
-                                        </button>
-                                    </Link>
+                                    <div className="flex flex-row">
+                                        <div>
+                                            <Link href={filteredItem.featuredHREF}>
+                                                <button className="hover:bg-rust.800 hover:text-white.100 text-xs text-rust.700 uppercase px-4 py-3 border border-rust.500 rounded-lg">
+                                                    {filteredItem.type === 'about'  ? 'Continue Reading' : 'See all'}
+                                                </button>
+                                            </Link>
+                                        </div>
+                                        <div className={`${filteredItem.isButtonActive === 'true'  ? 'block' : 'hidden'}  pl-2`}>
+                                            <Link href={filteredItem.buttonHref}>
+                                                <button className="hover:bg-rust.800 hover:text-white.100 text-xs text-rust.700 uppercase px-4 py-3 border border-rust.500 rounded-lg">
+                                                    {filteredItem.buttonText}
+                                                </button>
+                                            </Link>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </section>
