@@ -6,7 +6,7 @@ const plannerResourceItems = [
         description: "Download my full bio that can be used on your website, marketing materials, or any other way you like to promote your event. ",
         src: '/image/planner-01.jpg',
         buttonText:'Download Biography',
-        buttonHref:'/pdf/drsundar-introduction.pdf',
+        buttonHref:'/pdf/drsundar-bio.pdf',
     },
     {
         id:1,
