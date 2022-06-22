@@ -20,7 +20,7 @@ export default function photoGrid() {
                                         />
                                     </div>
                                     <div className="">
-                                        <a href={photoGridItems.buttonHref} target="_blank">
+                                        <a href={photoGridItems.buttonHref} target="_blank"  rel="noreferrer">
                                             <button className="hover:bg-rust.800 hover:text-white.100 text-xs text-rust.700 uppercase px-4 py-3 border border-rust.500 rounded-lg">
                                                 {photoGridItems.buttonText}
                                             </button>
