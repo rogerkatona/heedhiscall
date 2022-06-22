@@ -22,9 +22,9 @@ export async function getStaticProps() {
 
 export default function Home({allPostsData}) {
 
-  let featuredPosts = allPostsData.filter(function (featured){
+/*  let featuredPosts = allPostsData.filter(function (featured){
     return featured.isFeatured === 'true'
-  })
+  })*/
 
 
   return (
@@ -39,7 +39,7 @@ export default function Home({allPostsData}) {
         <Features  featured="true" type="workshop" />
         <BookACall_01/>
         <Features  featured="true" type="about" />
-        <TakeQuiz_01/>
+        {/*<TakeQuiz_01/>*/}
 {/*        {
           featuredPosts
               .filter(featured => featured.type === 'articles')

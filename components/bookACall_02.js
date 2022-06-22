@@ -1,31 +1,44 @@
 import Link from "next/link";
+import useModal from "../lib/useModal";
+import Modal from "./modal";
 
 
 export default function BookACall_02() {
+    const {isShowing, toggle} = useModal();
     return (
-        <section className="flex flex-col lg:mx-auto lg:max-w-7xl lg:py-12 lg:px-12 p-12 ">
-            <div className="font-bebasNeue text-3xl text-gray.700 pb-4">
-                Did you know?
-            </div>
-            <div className="py-4">
-                <span className="text-xl text-gray.700 font-medium">
-                    When hosting an event, the invited speaker can make all the difference.
-                </span>
-            </div>
-            <div className="">
-                <div className="text-gray.700 pt-4">
-                    The right speaker will engage the audience and convince them the investment of their time will bring profit.  Dr. Sundar’s goal as an educational and motivational speaker is to exceed expectations and bring lasting benefits to the audience and sponsoring organization.
+        <>
+            <section className="flex flex-col lg:mx-auto lg:max-w-7xl lg:py-12 lg:px-12 p-12 ">
+                <div className="font-bebasNeue text-3xl text-gray.700 pb-4">
+                    Did you know?
                 </div>
-            </div>
-            <div className="pt-8">
-                <Link href=''>
-                    <button className="hover:bg-rust.800 text-white.100 text-xs uppercase hover:text-gray-50 px-4 py-3 bg-rust.500 rounded-lg">
-                        Book A Call
-                    </button>
-                </Link>
+                <div className="py-4">
+                    <span className="text-xl text-gray.700 font-medium">
+                        When hosting an event, the invited speaker can make all the difference.
+                    </span>
+                </div>
+                <div className="">
+                    <div className="text-gray.700 pt-4">
+                        The right speaker will engage the audience and convince them the investment of their time will bring profit.  Dr. Sundar’s goal as an educational and motivational speaker is to exceed expectations and bring lasting benefits to the audience and sponsoring organization.
+                    </div>
+                </div>
+                <div className="pt-8">
+                    <Link href=''>
+                        <button
+                            onClick={toggle}
+                            className="hover:bg-rust.800 text-white.100 text-xs uppercase hover:text-gray-50 px-4 py-3 bg-rust.500 rounded-lg">
+                            Book A Call
+                        </button>
+                    </Link>
 
-            </div>
-        </section>
+                </div>
+            </section>
+            <section>
+                <Modal
+                    isShowing={isShowing}
+                    hide={toggle}
+                />
+            </section>
+        </>
     )
 }
 

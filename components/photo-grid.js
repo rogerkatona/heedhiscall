@@ -1,5 +1,5 @@
 import photoGridItems from "../data/photoGridItems";
-import Link from "next/link";
+
 
 export default function photoGrid() {
 
@@ -14,16 +14,17 @@ export default function photoGrid() {
                                 <div key={photoGridItems.id} className="">
                                     <div className='pb-4'>
                                         <img
+                                            className=""
                                             src={photoGridItems.src}
                                             alt={photoGridItems.alt}
                                         />
                                     </div>
                                     <div className="">
-                                        <Link href={photoGridItems.buttonHref}>
+                                        <a href={photoGridItems.buttonHref} target="_blank">
                                             <button className="hover:bg-rust.800 hover:text-white.100 text-xs text-rust.700 uppercase px-4 py-3 border border-rust.500 rounded-lg">
                                                 {photoGridItems.buttonText}
                                             </button>
-                                        </Link>
+                                        </a>
                                     </div>
                                 </div>
                         ))}
