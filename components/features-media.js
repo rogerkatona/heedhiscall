@@ -28,7 +28,8 @@ export default function FeaturesMedia(props) {
                                 />
                             </div>
                             <div className={`lg:w-4/5 w-full lg:pt-0 pt-6 ${filteredItem.featuredID % 2 !== 0  ? 'lg:pl-6' : 'lg:pr-6'}`}>
-                                <div className='font-bebasNeue text-4xl text-gray.700 '>
+                                <div className='font-bebasNeue text-4xl text-gray.400 font-light border-b'>{filteredItem.number}</div>
+                                <div className='font-bebasNeue text-4xl text-gray.700 pt-4'>
                                     {filteredItem.title}
                                 </div>
                                 <div className={` text-xs pt-1 uppercase ${filteredItem.type === 'about'  ? 'hidden' : 'block'}`}>
