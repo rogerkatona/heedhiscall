@@ -12,7 +12,7 @@ const heroItems = [
     {
         id:2,
         label: "in the media",
-        description: "As a seasoned professional, Dr. Sundar will elevate your participants experience at your next conference.  Dynamic opening keynotes, engaging breakout sessions, and inspiring.",
+        description: "Dr. Sundar is a seasoned media expert speaking on topics from Ear, Nose, and Throat issues, Beauty, Wellness and more.",
     },
     {
         id:3,

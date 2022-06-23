@@ -36,6 +36,8 @@ export default function Home({allPostsData}) {
         <MissionStatement/>
         <Features  featured="true" type="speaker" />
         <Quote id={2}/>
+        <Features  featured="true" type="media" />
+        <Quote id={1}/>
         <Features  featured="true" type="workshop" />
         <BookACall_01/>
         <Features  featured="true" type="about" />

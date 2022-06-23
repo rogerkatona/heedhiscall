@@ -13,6 +13,10 @@ const navItems = [
         path: "/planners",
     },
     {
+        label: "In the Media",
+        path: "/in-the-media",
+    },
+    {
         label: "About",
         path: "/about",
     },
