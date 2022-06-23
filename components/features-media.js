@@ -10,13 +10,14 @@ export default function FeaturesMedia(props) {
 
     return (
         <>
+            <section className="py-6 bg-gray.100">
             {filteredItem
                 .filter(filteredItem => filteredItem.type === props.type)
                 .map(filteredItem => (
 
                     <section
                         key={filteredItem.id}
-                        className={`flex flex-col p-12 ${filteredItem.featuredID % 2 !== 0  ? 'bg-gray.100' : 'bg-gray.100'}`}>
+                        className={`flex flex-col p-6 ${filteredItem.featuredID % 2 !== 0  ? 'bg-gray.100' : 'bg-gray.100'}`}>
 
                         <div className={`flex  flex-col  max-w-7xl mx-auto  ${filteredItem.featuredID % 2 !== 0  ? 'lg:flex-row' : 'lg:flex-row-reverse'}`}>
                             <div className=''>
@@ -47,6 +48,7 @@ export default function FeaturesMedia(props) {
                         </div>
                     </section>
                 ))}
+            </section>
         </>
     )
 }

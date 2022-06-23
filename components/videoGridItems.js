@@ -4,7 +4,7 @@ const videoGridItems = [
         src: '/image/video-thumbnail-01.jpg',
         alt:'Video 01',
         buttonText:'Watch Video',
-        buttonHref:'https://youtu.be/uHmUL09JPb4',
+        buttonHref:'https://youtu.be/S08zfmi9yIk',
     },
     {
         id:1,
