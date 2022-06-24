@@ -13,8 +13,10 @@ export default function HeroIndex() {
 {/*                <div className="font-bebasNeue text-gray.200 text-xl">
                     Featured video
                 </div>*/}
-
-                <div className="font-bebasNeue text-white.100 md:text-7xl text-opacity-5 text-6xl xl:w-4/5">
+                <div className="font-bebasNeue text-gray.100 md:text-3xl text-5xl ">
+                    Dr. Kalpana Sundar:
+                </div>
+                <div className="font-bebasNeue text-gray.300 md:text-6xl text-5xl ">
                     Helping Women Navigate Medicine with Clarity
                 </div>
 
