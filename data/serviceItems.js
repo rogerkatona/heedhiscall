@@ -254,7 +254,7 @@ const serviceItems = [
     },
     {
         id:16,
-        featuredID:12,
+        featuredID:1,
         type:"media",
         number:"02",
         featured:"false",
