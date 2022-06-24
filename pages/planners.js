@@ -4,7 +4,7 @@ import Hero from "../components/hero";
 import BookACall_02 from "../components/bookACall_02";
 import Quote from "../components/quote";
 import PlannerResources from "../components/planner-resources";
-import PhotoGrid from "../components/photo-grid";
+import GridPhoto from "../components/grid-photo";
 
 
 export default function Planners() {
@@ -25,11 +25,11 @@ export default function Planners() {
                     alt="Alt"
                 />
             </div>
-            <div className='font-bebasNeue text-6xl uppercase text-gray.700 flex flex-row justify-center text-center bg-rust.100 py-12'>Event Planner Resources</div>
+            <div className='font-bebasNeue text-6xl uppercase text-gray.700 flex flex-row justify-center text-center bg-gray.100 py-12'>Event Planner Resources</div>
             <PlannerResources/>
             <Quote id={1}/>
             <div className='font-bebasNeue text-6xl uppercase text-gray.700 flex flex-row justify-center  bg-gray.100 py-12'>Headshots</div>
-            <PhotoGrid/>
+            <GridPhoto type="headshot"/>
             <BookACall_02/>
         </Layout>
     )

@@ -40,19 +40,8 @@ export default function Post({ postData }) {
             <div className="">
                 <section className=''>
                     <section className="w-full bg-opacity-5 bg-primary">
-                        <div className='lg:hidden md:block hidden max-w-7xl mx-auto md:px-12 px-6 pt-12'>
-                            <Link href='/campaign/ux-audit'>
-                                <a>
-                                    <img
-                                        className="filter transition duration-500 ease-in-out hover:brightness-50"
-                                        src="/image/adLG-ux-audit.png"
-                                        alt="UX audit graphic"
-                                    />
-                                </a>
-                            </Link>
-                        </div>
                             <div className="max-w-7xl mx-auto xl:px-0 md:px-12 px-6 xl:py-12 py-12 flex md:flex-row flex-col">
-                        <section className="lg:w-4/5">
+                        <section className="">
                             <div className='font-roboto lg:text-3xl text-2xl '>{postData.title}</div>
                             <div className="py-2"> {postData.description} </div>
                             <div className=""> <span className="font-bold pr-2 ">Topics:</span>{postData.topic} </div>
@@ -98,19 +87,7 @@ export default function Post({ postData }) {
                                 <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
                             </section>
                         </section>
-                        <section className='md:pl-12 lg:block md:hidden flex-shrink-0'>
-                            <div className=''>
-                                <Link href='/campaign/ux-audit'>
-                                    <a>
-                                        <img
-                                            className="filter transition duration-500 ease-in-out hover:brightness-75"
-                                            src="/image/adSM-ux-audit.png"
-                                            alt="UX audit graphic"
-                                        />
-                                    </a>
-                                </Link>
-                            </div>
-                        </section>
+
                         </div>
                     </section>
 

@@ -16,8 +16,8 @@ const heroItems = [
     },
     {
         id:3,
-        label: "articles",
-        description: "As a seasoned professional, Kalpana will elevate your participants experience at your next conference.  Dynamic opening keynotes, engaging breakout sessions, and inspiring.",
+        label: "blog",
+        description: "A collection of teaching and self reflection that can inspire possibilities to the reader.",
     },
     {
         id:4,

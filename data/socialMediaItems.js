@@ -4,25 +4,19 @@ const socialMediaItems = [
     {
         label: "Linkedin",
         src: '/image/icon-Linkedin.svg',
-        path: "https://www.linkedin.com/in/rogerkatona",
+        path: "https://www.linkedin.com/in/drkalpanasundar",
         alt: 'LinkedIn',
     },
     {
         label: "Youtube",
         src: '/image/icon-Youtube.svg',
-        path: "https://www.youtube.com/channel/UC_wtM1aHa2RUIqm_WQp4JzA",
+        path: "https://www.youtube.com/channel/UCa1ChYX6QpDaxkhE-sngD5w",
         alt: 'Youtube',
-    },
-    {
-        label: "Twitter",
-        src: '/image/icon-Twitter.svg',
-        path: "https://twitter.com/roger_katona",
-        alt: 'Twitter',
     },
     {
         label: "Instagram",
         src: '/image/icon-Instagram.svg',
-        path: "https://www.instagram.com/rogerkatona/",
+        path: "https://www.instagram.com/kalpana.unbound/",
         alt: 'Instagram',
     },
 ];

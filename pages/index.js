@@ -7,8 +7,8 @@ import BookACall_01 from "../components/bookACall_01";
 import TakeQuiz_01 from "../components/takeQuiz_01";
 import Features from "../components/features";
 import {getSortedPostsData} from "../lib/posts";
-/*import Link from "next/link";
-import Date from "../components/date";*/
+import Link from "next/link";
+import Date from "../components/date";
 
 
 export async function getStaticProps() {
@@ -22,9 +22,9 @@ export async function getStaticProps() {
 
 export default function Home({allPostsData}) {
 
-/*  let featuredPosts = allPostsData.filter(function (featured){
+  let featuredPosts = allPostsData.filter(function (featured){
     return featured.isFeatured === 'true'
-  })*/
+  })
 
 
   return (
@@ -41,27 +41,29 @@ export default function Home({allPostsData}) {
         <Features  featured="true" type="workshop" />
         <BookACall_01/>
         <Features  featured="true" type="about" />
+      <Quote id={0}/>
         {/*<TakeQuiz_01/>*/}
-{/*        {
+      {
           featuredPosts
-              .filter(featured => featured.type === 'articles')
+              .filter(featured => featured.type === 'blog')
               .map(featured =>
                   <section key={featured.id} className='bg-gray.500 p-12 '>
                     <div  className='flex lg:flex-row lg:flex-row flex-col max-w-7xl mx-auto'>
                       <div className='flex'>
                         <img
                             src={featured.bannerSMImageSource}
-                            alt={'Featured Article'}
+                            alt={'Featured Blog'}
+                            width={1000}
                         />
                       </div>
                       <div className='w-4/5 lg:pl-6 pt-6 lg:pt-0'>
                         <div className='text-gray.300'>
-                          <Link href={`/articles/${featured.id}`}>
-                            <a className='hover:underline uppercase text-xs'>/Articles</a>
+                          <Link href={`/posts/${featured.id}`}>
+                            <a className='hover:underline uppercase text-xs'>/ Blog</a>
                           </Link>
                         </div>
                         <div className='font-bebasNeue text-4xl text-gray.200 pb-4'>
-                          Featured Article
+                          Featured Blog
                         </div>
                         <div className='text-xl text-gray.200'>
                           {featured.title}
@@ -70,7 +72,7 @@ export default function Home({allPostsData}) {
                           <Date dateString={featured.date} />
                         </div>
                         <div className='text-gray.200 py-4 '>{featured.description}</div>
-                        <Link href={`/articles/${featured.id}`}>
+                        <Link href={`/posts/${featured.id}`}>
                           <button className="hover:bg-rust.800 hover:text-white hover:border-rust.800 text-xs text-gray.200 uppercase px-4 py-3 border border-gray.200 rounded-lg">
                             Continue Reading
                           </button>
@@ -78,7 +80,7 @@ export default function Home({allPostsData}) {
                       </div>
                     </div>
                   </section>
-              )}*/}
+              )}
 
     </Layout>
   )

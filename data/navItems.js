@@ -17,6 +17,10 @@ const navItems = [
         path: "/in-the-media",
     },
     {
+        label: "Blog",
+        path: "/blog",
+    },
+    {
         label: "About",
         path: "/about",
     },

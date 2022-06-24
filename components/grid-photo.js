@@ -1,14 +1,15 @@
-import photoGridItems from "../data/photoGridItems";
+import gridItems from "../data/gridItems";
 
 
-export default function photoGrid() {
+export default function GridPhoto(props) {
 
     return (
         <>
             <section className="bg-gray.050">
                 <div  className="flex py-12 lg:py-12">
                     <div className="grid xl:grid-cols-3 gap-12 md:grid-cols-2 grid-cols-1 max-w-7xl mx-auto px-12">
-                        {photoGridItems
+                        {gridItems
+                            .filter(filteredItem => filteredItem.type === props.type)
                             .map(photoGridItems => (
 
                                 <div key={photoGridItems.id} className="">

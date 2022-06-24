@@ -9,7 +9,7 @@ export default function Offerings(props) {
 
     return (
         <>
-        <section className="py-12 md:pb-0">
+        <section className="py-12 md:pb-6">
             <div className='font-bebasNeue text-6xl uppercase text-gray.700 flex flex-row justify-center pb-6'>What we offer</div>
                 <div className="flex lg:flex-row flex-col lg:justify-center lg:space-x-10 mx-12  lg:mb-0 mb-6">
                     {filteredItem.map(filteredItem => (

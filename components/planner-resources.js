@@ -5,7 +5,7 @@ export default function PlannerResources() {
 
     return (
         <>
-            <section className="bg-rust.050 pt-12">
+            <section className="bg-gray.050 pt-12">
                 {plannerResourceItems
                     .map(plannerItems => (
                         <section

@@ -24,7 +24,7 @@ export default function FeaturesMedia(props) {
                                 <img
                                     src={filteredItem.src}
                                     width={1000}
-                                    alt={'Featured Article'}
+                                    alt={'Featured Media'}
                                 />
                             </div>
                             <div className={`lg:w-4/5 w-full lg:pt-0 pt-6 ${filteredItem.featuredID % 2 !== 0  ? 'lg:pl-6' : 'lg:pr-6'}`}>

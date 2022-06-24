@@ -42,7 +42,7 @@ module.exports = {
         'hero-planners': "url('/image/hero-event_planners.jpg')",
         'hero-about': "url('/image/hero-about.jpg')",
         'bg-contactModal': "url('/image/bg-contact.jpeg')",
-        'hero_inTheMedia': "url('/image/inTheMedia-03.png')",
+        'hero_inTheMedia': "url('/image/hero-in_the_media.jpg')",
         'hero_articles': "url('/image/hero_articles.jpeg')",
 
 
