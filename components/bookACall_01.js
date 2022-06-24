@@ -26,6 +26,9 @@ export default function BookACall_01() {
                         <div className="text-gray.700 pt-4">
                             Hospitals and event planners can use their diversity inclusion budget to help their female physicians, mid-level practitioners and nurses reclaim joy in their career which translates to better patient care, less turnover, and a reduction in medical errors.
                         </div>
+                        <div className="text-gray.700 pt-4">
+                            Book a call now to see how Dr. Sundar can help improve engagement within your hospital!
+                        </div>
                     </div>
                     <div className="pt-8">
                         <Link href=''>

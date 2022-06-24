@@ -18,7 +18,7 @@ export default function BookACall_02() {
                 </div>
                 <div className="">
                     <div className="text-gray.700 pt-4">
-                        The right speaker will engage the audience and convince them the investment of their time will bring profit.  Dr. Sundar’s goal as an educational and motivational speaker is to exceed expectations and bring lasting benefits to the audience and sponsoring organization.
+                        The right speaker will engage the audience and convince them the investment of their time will bring profit.  Dr. Sundar,  as an educational and motivational speaker, will exceed expectations and bring lasting benefits to the audience and sponsoring organization.
                     </div>
                 </div>
                 <div className="pt-8">
