@@ -1,4 +1,5 @@
 import gridItems from "../data/gridItems";
+import Date from "./date";
 
 
 export default function GridMedia(props) {
@@ -25,13 +26,13 @@ export default function GridMedia(props) {
                                             target={gridItems.target}
                                             rel="noreferrer"
                                             className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                                                <button className="bg-rust.700 hover:bg-rust.900 text-white.100 text-xs  uppercase px-4 py-3  rounded-lg">
+                                                <button className="border border-white.100 hover:bg-white.100 text-white.100 hover:text-rust.700 text-xs  uppercase px-4 py-3  rounded-lg">
                                                     {gridItems.buttonText}
                                                 </button>
                                         </a>
                                     </div>
                                     <div className="">
-                                        <div className="uppercase text-xs font-medium">
+                                        <div className="  font-medium">
                                             <a
                                                 href={gridItems.buttonHref}
                                                 target="_blank"
@@ -40,6 +41,9 @@ export default function GridMedia(props) {
                                                 {gridItems.title}
                                             </a>
 
+                                        </div>
+                                        <div className="uppercase text-xs font-medium">
+                                            <Date dateString={gridItems.date} />
                                         </div>
                                     </div>
                                 </div>

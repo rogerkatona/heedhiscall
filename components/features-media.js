@@ -32,7 +32,7 @@ export default function FeaturesMedia(props) {
                                 <div className='font-bebasNeue text-4xl text-gray.700 pt-4'>
                                     {filteredItem.title}
                                 </div>
-                                <div className={` text-xs pt-1 uppercase ${filteredItem.type === 'about'  ? 'hidden' : 'block'}`}>
+                                <div className={` text-xs uppercase ${filteredItem.type === 'about'  ? 'hidden' : 'block'}`}>
                                     <Date dateString={filteredItem.date} />
                                 </div>
                                 <div className='text-gray.700 py-4 '>{filteredItem.description}</div>

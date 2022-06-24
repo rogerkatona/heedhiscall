@@ -1,7 +1,7 @@
 ---
 title: 'Are You Bound To The Beauty Standard?'
 type: 'blog'
-date: '2022-06-10'
+date: '2022-06-17'
 description: 'Being a woman in business who is perceived positively isn’t easy - actually,  it’s really #%@$#! hard.'
 isFeatured: 'false'
 bannerImageSource: '/image/blog-01.jpg'
