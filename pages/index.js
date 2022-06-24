@@ -38,8 +38,8 @@ export default function Home({allPostsData}) {
         <MissionStatement/>
         <Features  featured="true" type="media" />
         <Quote id={2}/>
+      <div className='font-bebasNeue text-6xl uppercase text-gray.700 flex flex-row justify-center text-center bg-gray.200 py-12'>Featured Offerings</div>
         <Features  featured="true" type="speaker" />
-        <Quote id={1}/>
         <Features  featured="true" type="workshop" />
         <BookACall_01/>
         <Features  featured="true" type="about" />
