@@ -6,7 +6,7 @@ import Modal from "./modal";
 export default function HeroIndex() {
     const {isShowing, toggle} = useModal();
     return (
-        <section className="flex flex-row min-h-screen60vh max-h-screen60vh bg-0.1.hero bg-cover bg-right bg-no-repeat">
+        <section className="flex flex-row min-h-screen60vh max-h-screen60vh bg-0.1.hero bg-cover bg-center bg-no-repeat">
 
             <div className="flex flex-col justify-center items-center text-center max-w-7xl mx-auto lg:px-0 px-6">
 

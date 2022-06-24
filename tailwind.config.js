@@ -31,6 +31,7 @@ module.exports = {
         "screen65vh": "calc(65vh)",
         "screen50vh": "calc(50vh)",
         "screen47vh": "calc(47vh)",
+        "screen40vh": "calc(40vh)",
       }),
       width: theme => ({
         "128": "32rem",
@@ -43,7 +44,7 @@ module.exports = {
         'hero-about': "url('/image/hero-about.jpg')",
         'bg-contactModal': "url('/image/bg-contact.jpeg')",
         'hero_inTheMedia': "url('/image/hero-in_the_media.jpg')",
-        'hero_articles': "url('/image/hero_articles.jpeg')",
+        'hero_blog': "url('/image/hero-blog.jpg')",
 
 
       }),

@@ -9,7 +9,7 @@ export default function Hero(props) {
 
     return (
         <>
-            <section className="flex flex-row max-w-7xl mx-auto h-screen50vh">
+            <section className="flex flex-row max-w-7xl mx-auto h-screen40vh">
             {filteredItem.map(filteredItem => (
                 <section
                     key={filteredItem.id}

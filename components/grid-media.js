@@ -22,7 +22,7 @@ export default function GridMedia(props) {
                                         />
                                         <a
                                             href={gridItems.buttonHref}
-                                            target="_blank"
+                                            target={gridItems.target}
                                             rel="noreferrer"
                                             className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                                                 <button className="bg-rust.700 hover:bg-rust.900 text-white.100 text-xs  uppercase px-4 py-3  rounded-lg">

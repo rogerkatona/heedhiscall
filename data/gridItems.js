@@ -2,6 +2,7 @@ const gridItems = [
     {
         id:0,
         type:'headshot',
+        target:'_blank',
         src: '/image/headshot-thumbnail-01.jpg',
         alt:'Headshot 00',
         buttonText:'Download',
@@ -10,6 +11,7 @@ const gridItems = [
     {
         id:1,
         type:'headshot',
+        target:'_blank',
         src: '/image/headshot-thumbnail-02.jpg',
         alt:'Headshot 01',
         buttonText:'Download',
@@ -18,6 +20,7 @@ const gridItems = [
     {
         id:2,
         type:'headshot',
+        target:'_blank',
         src: '/image/headshot-thumbnail-03.jpg',
         alt:'Headshot 02',
         buttonText:'Download',
@@ -26,6 +29,7 @@ const gridItems = [
     {
         id:3,
         type:'headshot',
+        target:'_blank',
         src: '/image/headshot-thumbnail-04.jpg',
         alt:'Headshot 03',
         buttonText:'Download',
@@ -34,6 +38,7 @@ const gridItems = [
     {
         id:4,
         type:'headshot',
+        target:'_blank',
         src: '/image/headshot-thumbnail-05.jpg',
         alt:'Headshot 04',
         buttonText:'Download',
@@ -42,6 +47,7 @@ const gridItems = [
     {
         id:5,
         type:'media',
+        target:'_blank',
         src: '/image/video-thumbnail-01.jpg',
         alt:'Video 01',
         title:'Doctor Google',
@@ -51,6 +57,7 @@ const gridItems = [
     {
         id:6,
         type:'media',
+        target:'_blank',
         src: '/image/video-thumbnail-02.jpg',
         alt:'Video 02',
         title:'What Skincare products should you ditch?',
@@ -60,6 +67,7 @@ const gridItems = [
     {
         id:7,
         type:'media',
+        target:'_blank',
         src: '/image/video-thumbnail-03.jpg',
         alt:'Video 03',
         title:'Jacksonville buzz with Dr. Kalpana Sundar',
@@ -69,29 +77,32 @@ const gridItems = [
     {
         id:8,
         type:'blog',
-        src: '/image/blog-thumbnail-01.jpg',
+        target:'_self',
+        src: '/image/blog-thumbnail-06.jpg',
         alt:'Blog 01',
-        title:'Jacksonville buzz with Dr. Kalpana Sundar',
+        title:'Ten things I wish I knew before I said "I do" to medicine.',
         buttonText:'Read Blog',
-        buttonHref:'https://youtu.be/LXi_zXE073o',
+        buttonHref:'/posts/ten-things-i-wish-i-knew',
     },
     {
         id:9,
         type:'blog',
+        target:'_self',
         src: '/image/blog-thumbnail-01.jpg',
         alt:'Blog 01',
-        title:'Jacksonville buzz with Dr. Kalpana Sundar',
+        title:'Are You Bound To The Beauty Standard?',
         buttonText:'Read Blog',
-        buttonHref:'https://youtu.be/LXi_zXE073o',
+        buttonHref:'/posts/are-you-bound-to-the-beauty-standard',
     },
     {
         id:10,
         type:'blog',
-        src: '/image/blog-thumbnail-01.jpg',
-        alt:'Blog 01',
-        title:'Jacksonville buzz with Dr. Kalpana Sundar',
+        target:'_self',
+        src: '/image/blog-thumbnail-02.jpg',
+        alt:'Blog 02',
+        title:'The Entrepreneur Life Chose Me',
         buttonText:'Read Blog',
-        buttonHref:'https://youtu.be/LXi_zXE073o',
+        buttonHref:'/posts/the-entrepreneur-life-chose-me',
     },
 ];
 

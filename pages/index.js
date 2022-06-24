@@ -9,6 +9,7 @@ import Features from "../components/features";
 import {getSortedPostsData} from "../lib/posts";
 import Link from "next/link";
 import Date from "../components/date";
+import ClientLogos from "../components/clientLogos";
 
 
 export async function getStaticProps() {
@@ -33,6 +34,7 @@ export default function Home({allPostsData}) {
         <title>{siteTitle}</title>
       </Head>
         <HeroIndex/>
+        <ClientLogos/>
         <MissionStatement/>
         <Features  featured="true" type="speaker" />
         <Quote id={2}/>
