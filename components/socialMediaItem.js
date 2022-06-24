@@ -9,8 +9,8 @@ const SocialMedia = props => (
             <a>
                 <img
                     src={props.src}
-                    height={32}
-                    width={32}
+                    height={28}
+                    width={28}
                     alt={props.alt}
                 />
             </a>
