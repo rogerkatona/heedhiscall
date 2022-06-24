@@ -143,7 +143,7 @@ const serviceItems = [
     },*/
     {
         id:10,
-        featuredID:11,
+        featuredID:12,
         type:"workshop",
         subtype:"in-person",
         number:"01",
@@ -217,7 +217,7 @@ const serviceItems = [
     },
     {
         id:14,
-        featuredID:12,
+        featuredID:11,
         type:"about",
         number:"02",
         featured:"true",

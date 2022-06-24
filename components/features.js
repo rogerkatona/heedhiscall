@@ -16,7 +16,7 @@ export default function Features(props) {
 
                         <section
                             key={filteredItem.id}
-                            className={`flex flex-col p-12 ${filteredItem.featuredID % 2 !== 0  ? 'bg-rust.050' : 'bg-teal.050'}`}>
+                            className={`flex flex-col p-12 ${filteredItem.featuredID % 2 !== 0  ? 'bg-gray.100' : 'bg-gray.100'}`}>
 
                             <div className={`flex  flex-col  max-w-7xl mx-auto  ${filteredItem.featuredID % 2 !== 0  ? 'lg:flex-row' : 'lg:flex-row-reverse'}`}>
                                 <div className=''>
