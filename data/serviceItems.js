@@ -1,7 +1,7 @@
 const serviceItems = [
     {
         id:0,
-        featuredID:0,
+        featuredID:1,
         type:"speaker",
         subtype:"opening_keynote",
         number:"01",
@@ -235,7 +235,7 @@ const serviceItems = [
     },
     {
         id:15,
-        featuredID:13,
+        featuredID:2,
         type:"media",
         number:"01",
         featured:"true",
