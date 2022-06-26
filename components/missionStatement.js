@@ -3,7 +3,7 @@
 export default function MissionStatement() {
     return (
         <section className="max-w-7xl mx-auto mx-12">
-            <div className="flex flex-col justify-center py-12">
+            <div className="flex flex-col justify-center p-12">
                 <div className="font-bebasNeue md:text-4xl text-3xl text-gray.700">
                     Professional speaker . Motivator . Coach
                 </div>

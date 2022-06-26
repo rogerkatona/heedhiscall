@@ -14,7 +14,7 @@ export default function About() {
             </div>
                 <section className="pt-12">
                     <div className="flex flex-col">
-                        <div className="flex max-w-7xl mx-auto lg:px-0 px-12 lg:flex-row-reverse flex-col">
+                        <div className="flex max-w-7xl mx-auto lg:px-0 md:px-12 px-4 lg:flex-row-reverse flex-col">
                             <div className=''>
                                 <img
                                     src="/image/about-03.jpg"
@@ -32,7 +32,7 @@ export default function About() {
                 </section>
             <section className="pt-12">
                 <div className="flex flex-col ">
-                    <div className="flex max-w-7xl mx-auto lg:px-0 px-12 lg:flex-row flex-col">
+                    <div className="flex max-w-7xl mx-auto lg:px-0 md:px-12 px-4 lg:flex-row flex-col">
                         <div className=''>
                             <img
                                 src="/image/about-01.jpg"
@@ -52,7 +52,7 @@ export default function About() {
             </section>
             <section className="pt-12">
                 <div className="flex flex-col pb-12 ">
-                    <div className="flex max-w-7xl mx-auto lg:px-0 px-12 lg:flex-row-reverse flex-col">
+                    <div className="flex max-w-7xl mx-auto lg:px-0 md:px-12 px-4 lg:flex-row-reverse flex-col">
                         <div className=''>
                             <img
                                 src="/image/about-02.jpg"
@@ -72,7 +72,7 @@ export default function About() {
             </section>
             <section className="pb-12">
                 <div className="flex flex-col  ">
-                    <div className="flex max-w-7xl mx-auto lg:px-0 px-12 lg:flex-row flex-col">
+                    <div className="flex max-w-7xl mx-auto lg:px-0 md:px-12 px-4 lg:flex-row flex-col">
                         <div className=''>
                             <img
                                 src="/image/about-04.jpg"

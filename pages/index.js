@@ -38,7 +38,7 @@ export default function Home({allPostsData}) {
         <MissionStatement/>
         <Features  featured="true" type="media" />
         <Quote id={2}/>
-      <div className='font-bebasNeue text-6xl uppercase text-gray.700 flex flex-row justify-center text-center bg-gray.200 py-12'>Featured Offerings</div>
+      <div className="flex flex-row justify-center font-bebasNeue text-5xl text-gray.700 bg-gray.200 py-12">Featured Offerings</div>
         <Features  featured="true" type="speaker" />
         <Features  featured="true" type="workshop" />
         <BookACall_01/>
@@ -58,7 +58,7 @@ export default function Home({allPostsData}) {
                             width={1000}
                         />
                       </div>
-                      <div className='w-4/5 lg:pl-6 pt-6 lg:pt-0'>
+                      <div className='md:w-4/5 w-full lg:pl-6 pt-6 lg:pt-0'>
                         <div className='text-gray.300'>
                           <Link href={`/posts/${featured.id}`}>
                             <a className='hover:underline uppercase text-xs'>/ Blog</a>
