@@ -17,15 +17,15 @@ export default function Planners() {
             <header className="bg-hero-planners  min-h-screen50vh max-h-screen50vh bg-cover bg-left bg-no-repeat">
                 <Hero id={4}/>
             </header>
-            <div className='font-bebasNeue text-6xl uppercase text-gray.700 flex flex-row justify-center py-12'>Welcome!</div>
+{/*            <div className='font-bebasNeue text-6xl uppercase text-gray.700 flex flex-row justify-center py-12'>Welcome!</div>
             <div className='max-w-7xl mx-auto pb-12 lg:px-0 px-12 '>
                 <img
                     className=""
                     src="/image/videoThumbnail-01.png"
                     alt="Alt"
                 />
-            </div>
-            <div className='font-bebasNeue text-6xl uppercase text-gray.700 flex flex-row justify-center text-center bg-gray.100 py-12'>Event Planner Resources</div>
+            </div>*/}
+            <div className='font-bebasNeue text-6xl uppercase text-gray.700 flex flex-row justify-center text-center bg-gray.100 py-12'>Resources</div>
             <PlannerResources/>
             <Quote id={1}/>
             <div className='font-bebasNeue text-6xl uppercase text-gray.700 flex flex-row justify-center  bg-gray.100 py-12'>Headshots</div>
