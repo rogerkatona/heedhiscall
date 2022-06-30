@@ -286,9 +286,9 @@ const serviceItems = [
         title: "Empowering Women Through Beauty",
         description: "CCR magazine highlights Dr. Sundar and her Co-founder, Slade Sundar for their entrepreneurial venture during a global pandemic.  The company was built on the premise that beauty should be unbound from the expectations that the beauty industry has imposed upon women.  Everyone is beautiful when they have healthy skin and a healthy attitude about themselves.",
         src: '/image/media-04.jpg',
-        isButtonActive:'false',
-        buttonText:'Watch Video',
-        buttonHref:'https://youtu.be/O20jLxjqGhY',
+        isButtonActive:'true',
+        buttonText:'Read Article',
+        buttonHref:'https://issuu.com/bocdesigninc/docs/ccr-issue.2.21',
     },
 ];
 

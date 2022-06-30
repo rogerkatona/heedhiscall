@@ -115,6 +115,17 @@ const gridItems = [
         buttonText:'Read Blog',
         buttonHref:'/posts/the-entrepreneur-life-chose-me',
     },
+    {
+        id:11,
+        type:'media',
+        target:'_blank',
+        date:"2021-04-01",
+        src: '/image/media-thumbnail-04.jpg',
+        alt:'New Article',
+        title:'Empowering Women Through Beauty',
+        buttonText:'Read Article',
+        buttonHref:'https://issuu.com/bocdesigninc/docs/ccr-issue.2.21',
+    },
 ];
 
 export default gridItems
