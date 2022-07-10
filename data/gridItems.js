@@ -72,7 +72,7 @@ const gridItems = [
         buttonHref:'https://youtu.be/O20jLxjqGhY',
     },
     {
-        id:7,
+        id:70,
         type:'media',
         target:'_blank',
         date:"2021-08-10",
@@ -83,7 +83,29 @@ const gridItems = [
         buttonHref:'https://youtu.be/LXi_zXE073o',
     },
     {
-        id:8,
+        id:71,
+        type:'blog',
+        target:'_self',
+        date:"2022-07-06",
+        src: '/image/blog-thumbnail-02.jpg',
+        alt:'Blog 02',
+        title:'The Entrepreneur Life Chose Me',
+        buttonText:'Read Blog',
+        buttonHref:'/posts/the-entrepreneur-life-chose-me',
+    },
+    {
+        id:72,
+        type:'blog',
+        target:'_self',
+        date:"2022-07-01",
+        src: '/image/blog-thumbnail-03.jpg',
+        alt:'Blog: Six Factors That Drive Sibling Synergy',
+        title:'Six Factors That Drive Sibling Synergy',
+        buttonText:'Read Blog',
+        buttonHref:'/posts/six-factors-that-drive-sibling-synergy',
+    },
+    {
+        id:80,
         type:'blog',
         target:'_self',
         date:"2022-06-20",
@@ -94,7 +116,7 @@ const gridItems = [
         buttonHref:'/posts/ten-things-i-wish-i-knew',
     },
     {
-        id:9,
+        id:90,
         type:'blog',
         target:'_self',
         date:"2022-06-17",
@@ -105,18 +127,7 @@ const gridItems = [
         buttonHref:'/posts/are-you-bound-to-the-beauty-standard',
     },
     {
-        id:10,
-        type:'blog',
-        target:'_self',
-        date:"2022-06-10",
-        src: '/image/blog-thumbnail-02.jpg',
-        alt:'Blog 02',
-        title:'The Entrepreneur Life Chose Me',
-        buttonText:'Read Blog',
-        buttonHref:'/posts/the-entrepreneur-life-chose-me',
-    },
-    {
-        id:11,
+        id:110,
         type:'media',
         target:'_blank',
         date:"2021-04-01",
@@ -126,6 +137,7 @@ const gridItems = [
         buttonText:'Read Article',
         buttonHref:'https://issuu.com/bocdesigninc/docs/ccr-issue.2.21',
     },
+
 ];
 
 export default gridItems
