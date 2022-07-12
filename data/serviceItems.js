@@ -227,7 +227,7 @@ const serviceItems = [
         featuredHeader:"About",
         date:"2021-08-10",
         title: "Her passion is to see women in medicine find successes of their own with clarity, authenticity and courage.",
-        description: "Dr. Sundar is passionate about empowering women, specifically women in medicine, to live their most authentic lives. Her goal is to help women in medicine deal with the ever changing landscape of medicine with clarity. Clarity to embrace their gifts, clarity to use their voices authentically and clarity to make changes as necessary. Empowering all women to live authentic lives is at the heart of Dr. Sundar&apos;s own view of personal success. Her passion is to see women in medicine, in particular, find successes of their own with clarity, authenticity and courage.",
+        description: "Dr. Sundar is passionate about empowering women, specifically women in medicine, to live their most authentic lives. Her goal is to help women in medicine deal with the ever changing landscape of medicine with clarity. Clarity to embrace their gifts, clarity to use their voices authentically and clarity to make changes as necessary. Empowering all women to live authentic lives is at the heart of Dr. Sundar's own view of personal success. Her passion is to see women in medicine, in particular, find successes of their own with clarity, authenticity and courage.",
         src: '/image/about-02.jpg',
         isButtonActive:'false',
         buttonText:'Download Abstract',
