@@ -3,8 +3,6 @@ import Link from "next/link";
 import { useState} from 'react'
 import navItems from "../data/navItems";
 import {useRouter} from "next/router";
-import Modal from "./modal";
-import useModal from "../lib/useModal";
 
 
 export default function Header() {
@@ -13,7 +11,7 @@ export default function Header() {
     const handleClick = () => setActive(!active)
 
     const router = useRouter()
-    const {isShowing, toggle} = useModal();
+
 
     return (
        <>
@@ -55,23 +53,18 @@ export default function Header() {
                     </section>
                     <section className={`${active ? '' : 'hidden'} lg:flex lg:flex-row lg:my-0 my-12`}>
                             <NavBar navItems={navItems}/>
-                            <Link href=''>
-                                <button
-                                    onClick={toggle}
-                                    className="hover:bg-blue.400 hover:text-white.100  text-xs text-blue.700 uppercase px-3 py-2 lg:ml-3 lg:mt-0 mt-6 bg-rust.050 rounded-lg">
+                                <a
+                                    href="https://calendly.com/drkalpanasundar"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="hover:bg-blue.400 hover:text-white.100 text-xs text-blue.700 uppercase px-3 py-2 lg:ml-3 lg:mt-0 mt-6 bg-rust.050 rounded-lg">
                                     Book a call
-                                </button>
-                            </Link>
+                                </a>
                     </section>
                 </div>
             </div>
         </header>
-        <section>
-            <Modal
-                isShowing={isShowing}
-                hide={toggle}
-            />
-        </section>
+
        </>
     )
 }

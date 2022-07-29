@@ -45,8 +45,6 @@ module.exports = {
         'bg-contactModal': "url('/image/bg-contact.jpeg')",
         'hero_inTheMedia': "url('/image/hero-in_the_media.jpg')",
         'hero_blog': "url('/image/hero-blog.jpg')",
-
-
       }),
       fontFamily: {
         'sans': ['Helvetica Neue'],
@@ -140,7 +138,6 @@ module.exports = {
       'teal.900': '#35647B',
     },
   },
-
   backgroundPosition: {
     bottom: 'bottom',
     'bottom-4': 'center bottom 1rem',

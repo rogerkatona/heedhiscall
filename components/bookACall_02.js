@@ -1,10 +1,8 @@
-import Link from "next/link";
-import useModal from "../lib/useModal";
-import Modal from "./modal";
+
 
 
 export default function BookACall_02() {
-    const {isShowing, toggle} = useModal();
+
     return (
         <>
             <section className="flex flex-col lg:mx-auto lg:max-w-7xl lg:py-12 lg:px-0 p-12 ">
@@ -22,21 +20,14 @@ export default function BookACall_02() {
                     </div>
                 </div>
                 <div className="pt-8">
-                    <Link href=''>
-                        <button
-                            onClick={toggle}
+                        <a
+                            href="https://calendly.com/drkalpanasundar"
+                            target="_blank"
+                            rel="noreferrer"
                             className="hover:bg-rust.800 text-white.100 text-xs uppercase hover:text-gray-50 px-4 py-3 bg-rust.500 rounded-lg">
                             Book A Call
-                        </button>
-                    </Link>
-
+                        </a>
                 </div>
-            </section>
-            <section>
-                <Modal
-                    isShowing={isShowing}
-                    hide={toggle}
-                />
             </section>
         </>
     )

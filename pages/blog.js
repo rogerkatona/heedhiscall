@@ -47,7 +47,7 @@ export default function Blog({allPostsData}) {
                 <title>{siteTitle}</title>
             </Head>
             <div className="min-h-screen">
-                <header className="bg-hero_blog bg-cover h-screen40vh">
+                <header className="bg-hero_blog bg-auto h-screen40vh">
                     <Hero id={3}/>
                 </header>
 

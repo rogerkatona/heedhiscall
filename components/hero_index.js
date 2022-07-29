@@ -1,10 +1,7 @@
 
-import Link from "next/link";
-import useModal from "../lib/useModal";
-import Modal from "./modal";
 
 export default function HeroIndex() {
-    const {isShowing, toggle} = useModal();
+
     return (
         <section className="flex flex-row min-h-screen60vh max-h-screen60vh bg-0.1.hero bg-cover bg-center bg-no-repeat">
 
@@ -21,26 +18,15 @@ export default function HeroIndex() {
                 </div>
 
                 <div className="flex space-x-2">
-                    <Link href=''>
-                        <button
+                        <a
                             className="hover:bg-rust.800 text-white.100 text-xs uppercase hover:text-gray-50 px-4 py-3 bg-rust.500 rounded-lg"
-                            onClick={toggle}>
+                            href="https://calendly.com/drkalpanasundar"
+                            target="_blank"
+                            rel="noreferrer">
                             Book A Call
-                        </button>
-                    </Link>
-                    {/*<Link href=''>
-                        <button className="hover:bg-rust.800 hover:text-white hover:border-rust.800 text-xs text-gray.100 uppercase px-4 py-3 border border-gray.100 rounded-lg">
-                            Watch Video
-                        </button>
-                    </Link>*/}
+                        </a>
                 </div>
             </div>
 
-            <section>
-                <Modal
-                    isShowing={isShowing}
-                    hide={toggle}
-                />
-            </section>
         </section>
     )}
