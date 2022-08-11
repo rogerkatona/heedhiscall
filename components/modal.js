@@ -31,7 +31,7 @@ const Modal = ({ isShowing, hide }) => isShowing ? ReactDOM.createPortal(
                         </div>
                         <div className="text-gray.200 flex flex-row justify-center pb-12 text-center">
                             <div className="" >
-                                Provide your information and I will reach out to quickly to schedule an exploratory call (30 minutes) to discuss how I can help. I&apos;ll provide web conferencing details provided upon confirmation.
+                                Provide your information and I will reach out to you quickly to schedule an exploratory call (30 minutes) to discuss how I can help. I&apos;ll provide web conferencing details provided upon confirmation.
                             </div>
                         </div>
                         <Form/>

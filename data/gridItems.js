@@ -50,6 +50,17 @@ const gridItems = [
         buttonHref:'/image/headshot-05.jpg',
     },
     {
+        id:41,
+        type:'media',
+        target:'_blank',
+        date:"2022-08-11",
+        src: '/image/media-thumbnail-05.jpg',
+        alt:'Video 01',
+        title:'Managing the entrepreneurial journey',
+        buttonText:'Read Article',
+        buttonHref:'https://www.morninglazziness.com/rule-breakers/dr-kalpana-sundar-professional-speaker/',
+    },
+    {
         id:5,
         type:'media',
         target:'_blank',
