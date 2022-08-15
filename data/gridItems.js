@@ -94,6 +94,17 @@ const gridItems = [
         buttonHref:'https://youtu.be/LXi_zXE073o',
     },
     {
+        id:711,
+        type:'blog',
+        target:'_self',
+        date:"2022-08-11",
+        src: '/image/blog-thumbnail-04.jpg',
+        alt:'Blog 02',
+        title:'What My Shoe Addiction Taught Me',
+        buttonText:'Read Blog',
+        buttonHref:'/posts/what-my-shoe-addiction-taught-me',
+    },
+    {
         id:71,
         type:'blog',
         target:'_self',

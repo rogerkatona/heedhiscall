@@ -73,12 +73,19 @@ export default function Home({allPostsData}) {
                         <div className='text-xs pt-1 text-gray.300'>
                           <Date dateString={featured.date} />
                         </div>
-                        <div className='text-gray.200 py-4 '>{featured.description}</div>
-                        <Link href={`/posts/${featured.id}`}>
-                          <button className="hover:bg-rust.800 hover:text-white hover:border-rust.800 text-xs text-gray.200 uppercase px-4 py-3 border border-gray.200 rounded-lg">
-                            Continue Reading
-                          </button>
-                        </Link>
+                        <div className='text-gray.200 py-4'>{featured.description}</div>
+                        <div className='space-x-2'>
+                          <Link href="/blog">
+                            <button className="hover:bg-rust.800 hover:text-white hover:border-rust.800 text-xs text-gray.200 uppercase px-4 py-3 border border-gray.200 rounded-lg">
+                              See all blog posts
+                            </button>
+                          </Link>
+                          <Link href={`/posts/${featured.id}`}>
+                            <button className="hover:bg-rust.800 hover:text-white hover:border-rust.800 text-xs text-gray.200 uppercase px-4 py-3 border border-gray.200 rounded-lg">
+                              Continue Reading
+                            </button>
+                          </Link>
+                        </div>
                       </div>
                     </div>
                   </section>

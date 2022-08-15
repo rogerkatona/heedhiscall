@@ -32,7 +32,7 @@ export default function GridMedia(props) {
                                         </a>
                                     </div>
                                     <div className="">
-                                        <div className="  font-medium">
+                                        <div className="font-medium">
                                             <a
                                                 href={gridItems.buttonHref}
                                                 target="_blank"
