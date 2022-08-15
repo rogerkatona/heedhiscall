@@ -4,7 +4,6 @@ import Head from "next/head";
 import Date from "../../components/date";
 import SocialMediaItem from "../../components/socialMediaItem";
 import socialMediaItems from "../../data/socialMediaItems";
-import Link from "next/link";
 
 export async function getStaticProps({ params }) {
     // Add the "await" keyword like this:

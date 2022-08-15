@@ -12,7 +12,7 @@ alt: '6 Factors that Drive Sibling Synergy'
 author: 'Dr. Kalpana Sundar'
 authorDescription: 'Professional Speaker'
 authorImageSource: '/image/author-dks.jpeg'
-ogURL: 'https://www.drkalpanasundar.com/posts/six-factors-that-drive-sibling-synergy'
+ogURL: 'https://www.drkalpanasundar.com/blog/six-factors-that-drive-sibling-synergy'
 ogType: 'blog'
 ogImage: 'https://www.blueprospect.com/image/blog-03.jpg'
 ---

@@ -77,7 +77,7 @@ export default function Blog({allPostsData}) {
                                         </div>
                                         <div className='text-gray.700 py-4 '>{featured.description}</div>
                                         <div className="flex flex-row">
-                                            <Link href={`/posts/${featured.id}`}>
+                                            <Link href={`/blog/${featured.id}`}>
                                                 <button className="hover:bg-rust.800 hover:text-white.100 text-xs text-rust.700 uppercase px-4 py-3 border border-rust.500 rounded-lg">
                                                     Continue Reading
                                                 </button>

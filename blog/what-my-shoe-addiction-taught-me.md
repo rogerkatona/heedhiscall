@@ -12,7 +12,7 @@ alt: 'What my shoe addiction taught me about choices'
 author: 'Dr. Kalpana Sundar'
 authorDescription: 'Professional Speaker | Certified Life Coach'
 authorImageSource: '/image/author-dks.jpeg'
-ogURL: 'https://www.drkalpanasundar.com/posts/what-my-shoe-addiction-taught-me'
+ogURL: 'https://www.drkalpanasundar.com/blog/what-my-shoe-addiction-taught-me'
 ogType: 'blog'
 ogImage: 'https://www.drkalpanasundar.com/image/blog-04.jpg'
 ---

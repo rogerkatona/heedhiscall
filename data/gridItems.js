@@ -102,7 +102,7 @@ const gridItems = [
         alt:'Blog 02',
         title:'What My Shoe Addiction Taught Me',
         buttonText:'Read Blog',
-        buttonHref:'/posts/what-my-shoe-addiction-taught-me',
+        buttonHref:'/blog/what-my-shoe-addiction-taught-me',
     },
     {
         id:71,
@@ -113,7 +113,7 @@ const gridItems = [
         alt:'Blog 02',
         title:'The Entrepreneur Life Chose Me',
         buttonText:'Read Blog',
-        buttonHref:'/posts/the-entrepreneur-life-chose-me',
+        buttonHref:'/blog/the-entrepreneur-life-chose-me',
     },
     {
         id:72,
@@ -124,7 +124,7 @@ const gridItems = [
         alt:'Blog: Six Factors That Drive Sibling Synergy',
         title:'Six Factors That Drive Sibling Synergy',
         buttonText:'Read Blog',
-        buttonHref:'/posts/six-factors-that-drive-sibling-synergy',
+        buttonHref:'/blog/six-factors-that-drive-sibling-synergy',
     },
     {
         id:80,
@@ -135,7 +135,7 @@ const gridItems = [
         alt:'Blog 01',
         title:'Ten things I wish I knew before I said "I do" to medicine.',
         buttonText:'Read Blog',
-        buttonHref:'/posts/ten-things-i-wish-i-knew',
+        buttonHref:'/blog/ten-things-i-wish-i-knew',
     },
     {
         id:90,
@@ -146,7 +146,7 @@ const gridItems = [
         alt:'Blog 01',
         title:'Are You Bound To The Beauty Standard?',
         buttonText:'Read Blog',
-        buttonHref:'/posts/are-you-bound-to-the-beauty-standard',
+        buttonHref:'/blog/are-you-bound-to-the-beauty-standard',
     },
     {
         id:110,

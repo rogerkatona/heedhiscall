@@ -81,7 +81,7 @@ export default function Home({allPostsData}) {
                               See all blog posts
                             </button>
                           </Link>
-                          <Link href={`/posts/${featured.id}`}>
+                          <Link href={`/blog/${featured.id}`}>
                             <button className="hover:bg-rust.800 hover:text-white hover:border-rust.800 text-xs text-gray.200 uppercase px-4 py-3 border border-gray.200 rounded-lg">
                               Continue Reading
                             </button>

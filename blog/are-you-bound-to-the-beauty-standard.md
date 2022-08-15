@@ -12,7 +12,7 @@ alt: 'Are You Bound To The Beauty Standard?'
 author: 'Dr. Kalpana Sundar'
 authorDescription: 'Professional Speaker'
 authorImageSource: '/image/author-dks.jpeg'
-ogURL: 'https://www.drkalpanasundar.com/posts/are-you-bound-to-the-beauty-standard'
+ogURL: 'https://www.drkalpanasundar.com/blog/are-you-bound-to-the-beauty-standard'
 ogType: 'blog'
 ogImage: 'https://www.drkalpanasundar.com/image/blog-01.jpg'
 ---
