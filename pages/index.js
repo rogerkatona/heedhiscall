@@ -3,8 +3,8 @@ import Layout, { siteTitle } from "../components/layout";
 import HeroIndex from "../components/hero_index"
 import MissionStatement from "../components/missionStatement";
 import Quote from "../components/quote";
-import BookACall_01 from "../components/bookACall_01";
-import TakeQuiz_01 from "../components/takeQuiz_01";
+import BookACall_03 from "../components/bookACall_03";
+import BookACall_05 from "../components/bookACall_05";
 import Features from "../components/features";
 import {getSortedPostsData} from "../lib/posts";
 import Link from "next/link";
@@ -37,13 +37,14 @@ export default function Home({allPostsData}) {
         <ClientLogos/>
         <MissionStatement/>
         <Features  featured="true" type="media" />
-        <Quote id={2}/>
+      <BookACall_03/>
       <div className="flex flex-row justify-center font-bebasNeue text-5xl text-gray.700 bg-gray.200 py-12">Featured Offerings</div>
         <Features  featured="true" type="speaker" />
         <Features  featured="true" type="workshop" />
-        <BookACall_01/>
+        <Quote id={2}/>
+
         <Features  featured="true" type="about" />
-      <Quote id={0}/>
+       <BookACall_05/>
         {/*<TakeQuiz_01/>*/}
       {
           featuredPosts

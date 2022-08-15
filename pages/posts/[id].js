@@ -57,7 +57,7 @@ export default function Post({ postData }) {
                                         src={postData.authorImageSource}
                                         height={80}
                                         width={80}
-                                        alt="author image - Roger Katona"
+                                        alt="author image - Dr. Kalpana Sundar"
                                     />
                                 </div>
                                 <div className='min-w-max'>

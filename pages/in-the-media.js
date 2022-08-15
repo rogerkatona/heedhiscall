@@ -4,7 +4,7 @@ import Hero from "../components/hero";
 import GridMedia from "../components/grid-media";
 import Quote from "../components/quote";
 import FeaturesMedia from "../components/features-media";
-import BookACall_02 from "../components/bookACall_02";
+import BookACall_05 from "../components/bookACall_05";
 
 
 export default function InTheMedia() {
@@ -20,7 +20,7 @@ export default function InTheMedia() {
             <FeaturesMedia  featuredOnPage="true" type="media" />
             <Quote id={2}/>
             <GridMedia type="media"/>
-            <BookACall_02/>
+            <BookACall_05/>
         </Layout>
     )
 }
