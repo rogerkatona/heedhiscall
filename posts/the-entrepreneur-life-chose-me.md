@@ -12,7 +12,7 @@ alt: 'The Entrepreneur Life Chose Me'
 author: 'Dr. Kalpana Sundar'
 authorDescription: 'Professional Speaker'
 authorImageSource: '/image/author-dks.jpeg'
-ogURL: 'https://www.drkalpanasundar.com/blog/the-enterprise-life-chose-me'
+ogURL: 'https://www.drkalpanasundar.com/posts/the-enterprise-life-chose-me'
 ogType: 'blog'
 ogImage: 'https://www.drkalpanasundar.com/image/blog-02.jpg'
 ---
