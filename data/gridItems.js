@@ -50,6 +50,17 @@ const gridItems = [
         buttonHref:'/image/headshot-05.jpg',
     },
     {
+        id:40,
+        type:'media',
+        target:'_blank',
+        date:"2022-08-18",
+        src: '/image/media-thumbnail-06.jpg',
+        alt:'Video 01',
+        title:'Navigate with Clarity - Dr. Kalpana Sundar',
+        buttonText:'Read Article',
+        buttonHref:'https://gosolo.subkit.com/dr-kalpana-sundar/',
+    },
+    {
         id:41,
         type:'media',
         target:'_blank',
