@@ -3,7 +3,7 @@ import Layout, { siteTitle } from '../components/layout'
 import Hero from "../components/hero";
 import GridMedia from "../components/grid-media";
 import Quote from "../components/quote";
-import FeaturesMedia from "../components/features-media";
+import InTheMediaItem from "../components/inTheMediaItem";
 import BookACall_05 from "../components/bookACall_05";
 
 
@@ -17,7 +17,7 @@ export default function InTheMedia() {
                 <Hero id={2}/>
             </div>
             <div className='font-bebasNeue text-6xl uppercase text-gray.700 flex flex-row justify-center py-12'>Featured Media</div>
-            <FeaturesMedia  featuredOnPage="true" type="media" />
+            <InTheMediaItem  isFeatured="true"/>
             <Quote id={2}/>
             <GridMedia type="media"/>
             <BookACall_05/>

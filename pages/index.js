@@ -10,6 +10,7 @@ import {getSortedPostsData} from "../lib/posts";
 import Link from "next/link";
 import Date from "../components/date";
 import ClientLogos from "../components/clientLogos";
+import FeaturedMedia from "../components/featured-media";
 
 
 export async function getStaticProps() {
@@ -36,7 +37,7 @@ export default function Home({allPostsData}) {
         <HeroIndex/>
         <ClientLogos/>
         <MissionStatement/>
-        <Features  featured="true" type="media" />
+        <FeaturedMedia  isFeatured="true" isOnHome="true"/>
       <BookACall_03/>
       <div className="flex flex-row justify-center font-bebasNeue text-5xl text-gray.700 bg-gray.200 py-12">Featured Offerings</div>
         <Features  featured="true" type="speaker" />

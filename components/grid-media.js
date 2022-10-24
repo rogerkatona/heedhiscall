@@ -11,6 +11,13 @@ export default function GridMedia(props) {
                     <div className="grid xl:grid-cols-3 gap-12 md:grid-cols-2 grid-cols-1 max-w-7xl mx-auto xl:px-0 px-12">
                         {gridItems
                             .filter(filteredItem => filteredItem.type === props.type)
+                            .sort((a, b) => {
+                                if (a.date < b.date) {
+                                    return 1
+                                } else {
+                                    return -1
+                                }
+                            })
                             .map(gridItems => (
 
                                 <div key={gridItems.id} className="">
