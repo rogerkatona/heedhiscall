@@ -14,7 +14,7 @@ export default function HeroIndex() {
                     Dr. Kalpana Sundar:
                 </div>
                 <div className="font-bebasNeue text-gray.300 md:text-6xl text-5xl ">
-                    Helping Women Navigate Medicine with Clarity
+                   Women. Leadership. Entrepreneurship.
                 </div>
 
                 <div className="flex space-x-2">
