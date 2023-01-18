@@ -8,7 +8,7 @@ export default function MissionStatement() {
                     Transformational speaker . Master Certified Professional Coach
                 </div>
                 <div className="pt-4">
-                    Dr. Kalpana Sundar is a transformational speaker who focuses on guiding women in medicine toward fulfilling careers and personal lives. She helps women navigate the medical field with clarity to work towards their version of success.  Dr Sundar’s workshops and breakout sessions inspire women to regain career fulfillment.
+                    Dr. Kalpana Sundar is a transformational speaker and master certified life coach,  who focuses on guiding professional women toward fulfilling careers and personal lives. She helps women navigate careers, leadership and entrepreneurship with clarity to work towards their version of success. Dr Sundar’s keynotes, workshops and breakout sessions inspire women to regain career fulfillment.
                 </div>
             </div>
         </section>
