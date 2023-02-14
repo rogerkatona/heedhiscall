@@ -9,7 +9,7 @@ export default function About() {
             <Head>
                 <title>{siteTitle}</title>
             </Head>
-            <div className="bg-hero-about min-h-screen50vh max-h-screen50vh bg-cover bg-right bg-no-repeat">
+            <div className="bg-hero-about min-h-screen25vh max-h-screen25vh bg-cover bg-left bg-no-repeat flex flex-col justify-center">
                 <Hero id={5}/>
             </div>
                 <section className="pt-12">

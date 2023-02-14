@@ -1,6 +1,6 @@
 import serviceItems from "../data/serviceItems";
 import Link from "next/link";
-import Date from "./date";
+
 
 export default function Features(props) {
 
@@ -38,9 +38,8 @@ export default function Features(props) {
                                         {filteredItem.title}
                                     </div>
                                     <div className={` text-xs uppercase ${filteredItem.type === 'about'  ? 'hidden' : 'block'}`}>
-                                        <Date dateString={filteredItem.date} />
                                     </div>
-                                    <div className='text-gray.700 py-4 '>{filteredItem.description}</div>
+                                    <div className='text-gray.700 pt-2 pb-6 '>{filteredItem.description}</div>
                                     <div className="flex flex-row">
                                         <div>
                                             <Link href={filteredItem.featuredHREF}>

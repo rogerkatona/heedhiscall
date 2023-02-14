@@ -13,7 +13,7 @@ export default function Workshops() {
             <Head>
                 <title>{siteTitle}</title>
             </Head>
-            <header className="bg-hero_workshops min-h-screen50vh max-h-screen50vh bg-cover bg-left bg-no-repeat">
+            <header className="bg-hero_workshops min-h-screen25vh max-h-screen25vh bg-cover bg-center bg-no-repeat flex flex-col justify-center">
                 <Hero id={1}/>
             </header>
             <Offerings type="workshops"/>

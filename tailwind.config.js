@@ -15,10 +15,14 @@ module.exports = {
       minHeight: theme => ({
         "screen90vh": "calc(90vh)",
         "screen60vh": "calc(60vh)",
+        "screen25vh": "calc(25vh)",
+        "screen15vh": "calc(15vh)",
       }),
      maxHeight: theme => ({
        "screen90vh": "calc(90vh)",
        "screen65vh": "calc(65vh)",
+       "screen25vh": "calc(25vh)",
+       "screen15vh": "calc(15vh)",
       }),
       height: theme => ({
         "screen/2": "50vh",
@@ -41,7 +45,9 @@ module.exports = {
         'hero_speaker': "url('/image/hero-conference_speaker.jpg')",
         'hero_workshops': "url('/image/hero-workshop.jpg')",
         'hero-planners': "url('/image/hero-event_planners.jpg')",
+        'hero-books': "url('/image/hero-books.jpg')",
         'hero-about': "url('/image/hero-about.jpg')",
+        'hero-events': "url('/image/hero-events.jpg')",
         'bg-contactModal': "url('/image/bg-contact.jpeg')",
         'hero_inTheMedia': "url('/image/hero-in_the_media.jpg')",
         'hero_blog': "url('/image/hero-blog.jpg')",
@@ -62,6 +68,7 @@ module.exports = {
         '65': '65%',
         '50': '50%',
         '60': '60%',
+        '25': '25%',
         '16': '4rem',
         '650': '40.625rem',
       },

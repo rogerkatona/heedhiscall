@@ -14,7 +14,7 @@ export default function Planners() {
             <Head>
                 <title>{siteTitle}</title>
             </Head>
-            <header className="bg-hero-planners  min-h-screen50vh max-h-screen50vh bg-cover bg-left bg-no-repeat">
+            <header className="bg-hero-planners min-h-screen25vh max-h-screen25vh bg-cover bg-left bg-no-repeat flex flex-col justify-center">
                 <Hero id={4}/>
             </header>
 {/*            <div className='font-bebasNeue text-6xl uppercase text-gray.700 flex flex-row justify-center py-12'>Welcome!</div>

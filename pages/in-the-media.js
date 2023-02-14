@@ -13,7 +13,7 @@ export default function InTheMedia() {
             <Head>
                 <title>{siteTitle}</title>
             </Head>
-            <div className="bg-hero_inTheMedia bg-cover">
+            <div className="bg-hero_inTheMedia min-h-screen25vh max-h-screen25vh bg-cover bg-left bg-no-repeat flex flex-col justify-center">
                 <Hero id={2}/>
             </div>
             <div className='font-bebasNeue text-6xl uppercase text-gray.700 flex flex-row justify-center py-12'>Featured Media</div>

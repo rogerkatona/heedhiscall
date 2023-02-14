@@ -12,6 +12,13 @@ export default function Services(props) {
                 <section className="flex flex-col px-12 pt-12 bg-gray.100">
                     {filteredItem
                         .filter(filteredItem => filteredItem.subtype === props.subtype)
+                        .sort((a, b) => {
+                            if (a.date < b.date) {
+                                return 1
+                            } else {
+                                return -1
+                            }
+                        })
                         .map(filteredItem => (
                             <div
                                 key={filteredItem.id}

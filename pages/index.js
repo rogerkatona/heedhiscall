@@ -4,7 +4,7 @@ import HeroIndex from "../components/hero_index"
 import MissionStatement from "../components/missionStatement";
 import Quote from "../components/quote";
 import BookACall_03 from "../components/bookACall_03";
-import BookACall_05 from "../components/bookACall_05";
+import BookACall_07 from "../components/bookACall_07";
 import Features from "../components/features";
 import {getSortedPostsData} from "../lib/posts";
 import Link from "next/link";
@@ -38,14 +38,14 @@ export default function Home({allPostsData}) {
         <ClientLogos/>
         <MissionStatement/>
         <FeaturedMedia  isFeatured="true" isOnHome="true"/>
-      <BookACall_03/>
+      <BookACall_07/>
       <div className="flex flex-row justify-center font-bebasNeue text-5xl text-gray.700 bg-gray.200 py-12">Featured Offerings</div>
         <Features  featured="true" type="speaker" />
         <Features  featured="true" type="workshop" />
-        <Quote id={2}/>
+        <Quote id={3}/>
 
         <Features  featured="true" type="about" />
-       <BookACall_05/>
+       <BookACall_03/>
         {/*<TakeQuiz_01/>*/}
       {
           featuredPosts

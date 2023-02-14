@@ -9,6 +9,14 @@ const navItems = [
         path: "/workshops",
     },
     {
+        label: "Events",
+        path: "/events",
+    },
+    {
+        label: "Books",
+        path: "/books",
+    },
+    {
         label: "Event Planners",
         path: "/planners",
     },
