@@ -20,7 +20,7 @@ export default function BookACall_07() {
                         When society encourages women to do more while expecting less in return, a cascade of negative events is set in place.  Reduced productivity, feelings of being overwhelmed, physical and mental exhaustion are the consequence.  In this condition, women are not able to be  the best version of themselves. With guidance and encouragement,  women CAN regain control of their lives by living  mindfully, engaged and with purpose.
                     </div>
                     <div className="text-gray.700 pt-4">
-                        Book a call for help navigating the "juggle" with Master Certified Professional Coach, Dr. Kalpana Sundar!
+                        Book a call for help navigating the &quot;juggle&quot; with Master Certified Professional Coach, Dr. Kalpana Sundar!
                     </div>
                 </div>
                 <div className="pt-8">
