@@ -17,7 +17,7 @@ export default function InTheMedia() {
                 <Hero id={2}/>
             </div>
             <div className='font-bebasNeue text-6xl uppercase text-gray.700 flex flex-row justify-center py-12'>Featured Media</div>
-            <InTheMediaItem  isFeatured="true"/>
+            <InTheMediaItem  isFeatured="true" type="media"/>
             <Quote id={2}/>
             <GridMedia type="media"/>
             <BookACall_05/>

@@ -152,7 +152,7 @@ const serviceItems = [
         featuredURL:"/ workshops",
         featuredHeader:"workshop",
         featuredButtonLabel:"See All Workshops",
-        date:"2021-08-10",
+        date:"2023-02-01",
         title: "Women in Medicine: Reclaiming Career Satisfaction and Life Balance Workshop",
         description: "In this 90 minute workshop Dr. Sundar will take the audience on a journey to determine what career satisfaction looks like for each participant and the dynamic role this plays in other aspects of their lives.",
         src: '/image/services-02.jpg',
@@ -250,7 +250,7 @@ const serviceItems = [
         src: '/image/event-02.jpg',
         isButtonActive:'true',
         buttonText:'Download Abstract',
-        buttonHref:'/pdf/workshop03-abstract.pdf',
+        buttonHref:'/pdf/feminineEntrepreneurship-abstract.pdf',
     },
     {
         id:16,
@@ -266,10 +266,10 @@ const serviceItems = [
         date:"2023-01-31",
         title: "Weathering the Storm of Entrepreneurship",
         description: "In this keynote, Dr. Sundar shares five of the most valuable lessons she has learned in twenty years as an entrepreneur. The audience will be inspired to examine their expectations of entrepreneurship and take positive steps toward a fulfilling career.",
-        src: '/image/event-02.jpg',
+        src: '/image/speaker-01.jpg',
         isButtonActive:'true',
         buttonText:'Download Abstract',
-        buttonHref:'/pdf/workshop03-abstract.pdf',
+        buttonHref:'/pdf/weatheringTheStormOfEntrepreneurship-abstract.pdf',
     },
     {
         id:17,
@@ -285,10 +285,10 @@ const serviceItems = [
         date:"2023-01-30",
         title: "How to Use Expectations to Empower You",
         description: "Expectations are unavoidable and influence our behavior in a positive or negative way. Dr. Sundar will show the audience ways to use common expectations that are placed upon us and to gain insight into our own authentic needs and desires.",
-        src: '/image/event-02.jpg',
+        src: '/image/speaker-03.jpg',
         isButtonActive:'true',
         buttonText:'Download Abstract',
-        buttonHref:'/pdf/workshop03-abstract.pdf',
+        buttonHref:'/pdf/usingExpectationsToEmpowerYou-abstract.pdf',
     },
 ];
 

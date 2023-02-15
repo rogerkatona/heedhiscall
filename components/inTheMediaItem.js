@@ -11,6 +11,7 @@ export default function InTheMediaItem(props) {
         <>
             <section className="py-6 bg-gray.100">
                 {filteredItem
+                    .filter(filteredItem => filteredItem.type === props.type)
                     .sort((a, b) => {
                         if (a.date < b.date) {
                             return 1
