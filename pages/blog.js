@@ -48,7 +48,7 @@ export default function Blog({allPostsData}) {
             </Head>
             <div className="min-h-screen">
                 <header className="bg-hero_blog min-h-screen25vh max-h-screen25vh bg-cover bg-center bg-no-repeat flex flex-col justify-center">
-                    <Hero id={3}/>
+                    <Hero id={0}/>
                 </header>
 
                 <div className='font-bebasNeue text-6xl uppercase text-gray.700 flex flex-row justify-center py-12'>Featured Blog</div>

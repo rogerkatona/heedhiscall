@@ -20,12 +20,13 @@ export default function Header() {
                 <section>
                     <Link href='/'>
                         <a>
-                            <div className="flex flex-row items-center">
-                                <img
+                            <div className="flex flex-row items-center text-gray.100 text-3xl font-bebasNeue">
+                                HEED HIS CALL
+{/*                                <img
                                     src="/image/logo.svg"
                                     width={250}
                                     alt={'Logo'}
-                                />
+                                />*/}
                             </div>
                         </a>
                     </Link>
@@ -58,7 +59,7 @@ export default function Header() {
                                     target="_blank"
                                     rel="noreferrer"
                                     className="hover:bg-blue.400 hover:text-white.100 text-xs text-blue.700 uppercase px-3 py-2 lg:ml-3 lg:mt-0 mt-6 bg-rust.050 rounded-lg">
-                                    Book a call
+                                    Donate
                                 </a>
                     </section>
                 </div>
