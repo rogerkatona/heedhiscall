@@ -8,7 +8,7 @@ import Hero from "../components/hero";
 import Modal from "../components/modal";
 import Quote from "../components/quote";
 import GridMedia from "../components/grid-media";
-import BookACall_02 from "../components/bookACall_02";
+import BookACall_07 from "../components/bookACall_07";
 
 
 export async function getStaticProps() {
@@ -47,7 +47,7 @@ export default function Blog({allPostsData}) {
                 <title>{siteTitle}</title>
             </Head>
             <div className="min-h-screen">
-                <header className="bg-hero_blog min-h-screen25vh max-h-screen25vh bg-cover bg-center bg-no-repeat flex flex-col justify-center">
+                <header className="bg-blue.600 min-h-screen25vh max-h-screen25vh  flex flex-col justify-center">
                     <Hero id={0}/>
                 </header>
 
@@ -89,9 +89,9 @@ export default function Blog({allPostsData}) {
                         )}
                 </section>
                 <section>
-                    <Quote id={1}/>
+                    <Quote id={0}/>
                     <GridMedia type="blog"/>
-                    <BookACall_02/>
+                    <BookACall_07/>
                 </section>
 
             </div>
