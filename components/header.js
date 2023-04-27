@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useState} from 'react'
 import navItems from "../data/navItems";
 import {useRouter} from "next/router";
-
+import {motion, useScroll, useTransform} from "framer-motion";
 
 export default function Header() {
 
@@ -12,23 +12,29 @@ export default function Header() {
 
     const router = useRouter()
 
+    let { scrollY } = useScroll();
+    let y = useTransform(scrollY, [0,1], ["0%", "100%"])
+    let opacity = useTransform(scrollY, [0,600], [.25,1])
 
     return (
        <>
-        <header className={`${router.pathname.startsWith("/campaign/")  ? 'bg-campaign' : 'bg-blue.700'}`}>
+           <header>
+        <motion.div
+            className="fixed top-0 left-0 bg-black.100 w-screen z-30"
+            style={{ opacity }}>
             <div className="lg:flex lg:flex-row lg:justify-between lg:items-center lg:mx-auto lg:max-w-7xl py-6 xl:px-0 lg:px-12 px-6">
                 <section>
                     <Link href='/'>
-                        <a>
+                        <div>
                             <div className="flex flex-row items-center text-gray.100 text-3xl font-bebasNeue">
-                                HEED HIS CALL
+                                HEED
 {/*                                <img
                                     src="/image/logo.svg"
                                     width={250}
                                     alt={'Logo'}
                                 />*/}
                             </div>
-                        </a>
+                        </div>
                     </Link>
                 </section>
                 <div>
@@ -64,8 +70,8 @@ export default function Header() {
                     </section>
                 </div>
             </div>
-        </header>
-
+        </motion.div>
+           </header>
        </>
     )
 }

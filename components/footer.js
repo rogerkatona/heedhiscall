@@ -11,12 +11,12 @@ export default function Footer() {
         <footer className="flex flex-col justify-center lg:items-center lg:px-0 px-12 bg-blue.700 text-white py-48 space-y-6">
             <section>
                 <Link href='/'>
-                    <a>
+                    <div>
                         <div className="flex flex-row items-center text-gray.100 text-5xl font-bebasNeue">
 
 Heed His Call
                         </div>
-                    </a>
+                    </div>
                 </Link>
             </section>
 

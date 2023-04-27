@@ -8,7 +8,7 @@ export default function Layout({ children}) {
 
     return (
         <>
-            <div className="flex flex-col">
+            <div className="flex flex-col bg-black.100">
                 <Head>
                     <title>{siteTitle}</title>
                     <link rel="icon" href="/favicon.ico" />

@@ -28,7 +28,7 @@ export default function Features(props) {
                                 <div className={`lg:w-4/5 w-full lg:pt-0 pt-6 ${filteredItem.featuredID % 2 !== 0  ? 'lg:pl-6' : 'lg:pr-6'}`}>
                                     <div className='text-rust.700'>
                                         <Link href={filteredItem.featuredHREF}>
-                                            <a className='hover:underline uppercase text-xs'>{filteredItem.featuredURL}</a>
+                                            <span className='hover:underline uppercase text-xs'>{filteredItem.featuredURL}</span>
                                         </Link>
                                     </div>
                                     <div className='font-bebasNeue text-4xl text-gray.700 pb-4'>

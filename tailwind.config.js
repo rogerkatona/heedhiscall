@@ -41,16 +41,8 @@ module.exports = {
         "128": "32rem",
       }),
       backgroundImage: theme => ({
-        '0.1.hero': "url('/image/hero-index.jpg')",
-        'hero_speaker': "url('/image/hero-conference_speaker.jpg')",
-        'hero_workshops': "url('/image/hero-workshop.jpg')",
-        'hero-planners': "url('/image/hero-event_planners.jpg')",
-        'hero-books': "url('/image/hero-books.jpg')",
-        'hero-about': "url('/image/hero-about.jpg')",
-        'hero-events': "url('/image/hero-events.jpg')",
+        'bg-index': "url('/image/bg-1.jpg')",
         'bg-contactModal': "url('/image/bg-contact.jpeg')",
-        'hero_inTheMedia': "url('/image/hero-in_the_media.jpg')",
-        'hero_blog': "url('/image/hero-blog.jpg')",
       }),
       fontFamily: {
         'sans': ['Helvetica Neue'],
@@ -162,6 +154,9 @@ module.exports = {
     'top-4': 'center top 1rem',
     'top-8': 'center top 2rem',
     'top-12': 'center top 3rem',
+  },
+  fontSize: {
+    '12xl': '6.052rem',
   },
   screens: {
     'sm': '640px',
