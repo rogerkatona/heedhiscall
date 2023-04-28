@@ -15,7 +15,7 @@ export default function Index03() {
 
                 <motion.div
                     style={{ opacity }}
-                    className="font-bebasNeue text-gray.300 md:text-6xl text-6xl"
+                    className="font-bebasNeue text-gray.300 md:text-6xl text-4xl"
                     initial={{ opacity: 0, x: 0, y: 0 }}
                     animate={{ opacity: 1, x: 0, y: 0 }}
                     transition={{

@@ -5,7 +5,6 @@ import Link from 'next/link'
 import Date from "../components/date";
 import {useEffect, useState} from "react";
 import Hero from "../components/hero";
-import Modal from "../components/modal";
 import Quote from "../components/quote";
 import GridMedia from "../components/grid-media";
 import BookACall_07 from "../components/bookACall_07";

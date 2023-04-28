@@ -13,7 +13,7 @@ export default function HeroIndex() {
 
                     <motion.div
                         style={{ opacity }}
-                        className="font-bebasNeue text-gray.300 md:text-9xl text-9xl"
+                        className="font-bebasNeue text-gray.300 md:text-9xl text-4xl"
                         initial={{ opacity: 0, x: 0, y: 40 }}
                         animate={{ opacity: 1, x: 0, y: 0 }}
                         transition={{
