@@ -14,25 +14,30 @@ export default function Header() {
 
     let { scrollY } = useScroll();
     let y = useTransform(scrollY, [0,1], ["0%", "100%"])
-    let opacity = useTransform(scrollY, [0,600], [.25,1])
+    let opacity = useTransform(scrollY, [0,300], [0,1])
 
     return (
        <>
            <header>
         <motion.div
             className="fixed top-0 left-0 bg-black.100 w-screen z-30"
-            style={{ opacity }}>
-            <div className="lg:flex lg:flex-row lg:justify-between lg:items-center lg:mx-auto lg:max-w-7xl py-6 xl:px-0 lg:px-12 px-6">
+            initial={{ opacity: 0, x: 0, y: 0 }}
+            animate={{ opacity: 1, x: 0, y: 0 }}
+            transition={{
+                duration: 2,
+                delay: 2,
+            }}
+        >
+            <div className="lg:flex lg:flex-row lg:justify-between lg:items-center lg:mx-auto lg:max-w-7xl py-3 xl:px-0 lg:px-12 px-6">
                 <section>
                     <Link href='/'>
                         <div>
                             <div className="flex flex-row items-center text-gray.100 text-3xl font-bebasNeue">
                                 HEED
-{/*                                <img
-                                    src="/image/logo.svg"
-                                    width={250}
-                                    alt={'Logo'}
-                                />*/}
+                                <span className="font-roboto pl-4 text-base text-gray.400">
+                                    For those who answer his call
+                                </span>
+
                             </div>
                         </div>
                     </Link>

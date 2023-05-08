@@ -1,45 +1,48 @@
+import {useRef} from "react";
 import {motion, useScroll, useTransform} from "framer-motion";
 
 export default function Index03() {
-
+    let ref = useRef(null)
     let { scrollYProgress } = useScroll();
-    let y = useTransform(scrollYProgress, [0,1], ["0%", "100%"])
-    let opacity = useTransform(scrollYProgress, [0,1], ["0%", "100%"])
+    let y = useTransform(scrollYProgress, [0,1], ["0%", "75%"])
 
     return (
-        <motion.div
-            style={{ opacity, y }}
-            className="flex flex-row py-96">
-
-            <div className="flex flex-col justify-center items-center text-center max-w-7xl mx-auto lg:px-0 px-6 ">
-
+        <section className="h-screen ">
+            <div className = "flex flex-col h-screen bg-bg-index bg-cover justify-center items-center" >
                 <motion.div
-                    style={{ opacity }}
-                    className="font-bebasNeue text-gray.300 md:text-6xl text-4xl"
-                    initial={{ opacity: 0, x: 0, y: 0 }}
-                    animate={{ opacity: 1, x: 0, y: 0 }}
+                    initial={{ opacity: 0}}
+                    whileInView={{ opacity: 1}}
                     transition={{
                         duration: 1,
-                        delay: 0,
+                        delay: 2,
                     }}
+                    className="w-1/2"
                 >
-                    <div>We support consecrated vocations, those who are discerning, and people and organizations that support religious life.</div>
-
+                    <div className="font-roboto md:text-4xl text-gray.300  text-center ">
+                        We support consecrated vocations, religious life, and those who are discerning.
+                    </div>
+                </motion.div>
+                <motion.div
+                    initial={{ opacity: 0}}
+                    whileInView={{ opacity: 1}}
+                    transition={{
+                        duration: 1,
+                        delay: 4,
+                    }}>
+                    <div className="text-center text-gray.400 font-roboto text-2xl flex flex-row space-x-24 pt-24">
+                        <div className="bg-black.100 p-24">
+                            Anchoritic vocations
+                        </div>
+                        <div className="bg-black.100 p-24">
+                            Religious formation
+                        </div>
+                        <div className="bg-black.100 p-24">
+                            Discernment expenses
+                        </div>
+                    </div>
                 </motion.div>
 
-
-
-                {/*                    <div className="flex space-x-2">
-                            <a
-                                className="hover:bg-rust.800 text-white.100 text-xs uppercase hover:text-gray-50 px-4 py-3 bg-rust.500 rounded-lg"
-                                href="https://calendly.com/drkalpanasundar"
-                                target="_blank"
-                                rel="noreferrer">
-                                Donate
-                            </a>
-                    </div>*/}
             </div>
-
-
-        </motion.div>
-    )}
+        </section>
+    );
+}

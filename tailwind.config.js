@@ -42,6 +42,7 @@ module.exports = {
       }),
       backgroundImage: theme => ({
         'bg-index': "url('/image/bg-1.jpg')",
+        'bg-index2': "url('/image/bg-2.jpg')",
         'bg-contactModal': "url('/image/bg-contact.jpeg')",
       }),
       fontFamily: {
@@ -51,6 +52,7 @@ module.exports = {
         'bebasNeue': ['Bebas Neue'],
         'body': ['Helvetica Neue'],
         'roboto': ['Roboto'],
+        'script': ['Style Script'],
       },
       backgroundSize: {
         'auto': 'auto',

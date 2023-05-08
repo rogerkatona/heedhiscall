@@ -11,6 +11,10 @@ class MyDocument extends Document {
                         href="https://fonts.googleapis.com/css2?family=Bebas+Neue"
                         rel="stylesheet"
                     />
+                    <link
+                        href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap"
+                        rel="stylesheet"
+                    />
                 </Head>
                 <body>
                 <Main />
