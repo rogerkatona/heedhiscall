@@ -10,11 +10,11 @@ export default function Index03() {
         <section className="h-screen ">
             <div className = "flex flex-col h-screen bg-bg-index bg-cover justify-center items-center" >
                 <motion.div
-                    initial={{ opacity: 0}}
-                    whileInView={{ opacity: 1}}
+                    initial={{ opacity: 0, x: 0, y: 100}}
+                    whileInView={{ opacity: 1, x: 0, y: 0}}
                     transition={{
                         duration: 1,
-                        delay: 2,
+                        delay: 3,
                     }}
                     className="w-1/2"
                 >
